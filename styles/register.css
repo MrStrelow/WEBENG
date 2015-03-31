@@ -1,11 +1,11 @@
 /*******************************************
  *********** HEADER & NAVIGATION ***********
  *******************************************/
-header
-{
+header{
 	background-color: #2E4984;
 	height: 4.4em;
 }
+
 header font{
 	font-size: 1.75em;
 	color: white;
@@ -17,17 +17,17 @@ header font{
 	width:10em;
 	
 }
+
 header img{
-	
 	margin-top:0.35em;
-	margin-left:0.5em;
+	margin-left:0.1em;
 	float: left;
 	width: 3.75em;
-	height:3.5em;
+	height: 3.5em;
 	
 }
+
 nav input{
-	
 	float: right;
 	height: 2.5em;
 	width: 12em;
@@ -36,123 +36,92 @@ nav input{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight: 600;
 	font-size: 1em;
-	border:0.1em solid black;
-	margin-top:-3.3em;
-	margin-right:1em;
+	border-width: 0.1em;
+	border-color: rgb(120,70,0);
+	margin-top: -1em;
+	margin-right: 1em;
 }
-/*******************************************
- *********** REGISTER-MAINPAGE *************
- *******************************************/
+
 body{
-	background: linear-gradient(white, #D3D8E8);
-	height: 50em;
+	background: linear-gradient(white, rgb(211,216,232));
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-article {
-	
-	max-width:30em;
-	margin-left:auto;
-	margin-right:auto;
-	font-size: 1.1em;
+
+article{
+	font-size: 1em;
 }
-article input{
-	margin-right: 2em;
-	height: 2.5em;
+
+input[type = "text"], input[type = "password"]{
+    border: 1px solid rgb(3,52,95);
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    
 }
-article input[type="text"]{
-    border: 1px solid RGB(3,52,95);
-    border-radius: 0.25em;
-	margin-right: 2em;
-	width: 22em;
-	height:2.5em;
-	float:right;
-	
+
+input[type = "radio"] {
+	cursor: pointer;
+	background-color: white;	
 }
-article input[type="password"]{
-    border: 1px solid RGB(3,52,95);
-    border-radius: 0.25em;
-	margin-right: 2em;
-	width: 22em;
-	height:2.5em;
-	float:right;
-}
-article input[type="radio"] {
-	cursor:pointer;
-	background-color:white;	
-	float:left;
-	clear:none;
-	margin-left: 7em;
-}
-article input[type="submit"] {
+
+input[type = "submit"] {
     border: 0.1em solid black;
     border-radius: 0.25em;
 	background-color: rgb(204,204,204);
 	color: white;
-	width: 12em;
+	width: 8em;
 	font-size: 1em;
-	font-weight:bold;
-	margin-top: 0.7em;
-	margin-right: 1.55em;
-	float:right;
 }
+
+.diabledInput{
+	background-color: rgb(120,70,0);
+ }
+
 article h2{
-	font-size:1.5em;
-	color: RGB(0,107,190)
+	font-size: 1.5em;
+	color: rgb(0,107,190)
 }
 article fieldset{
 	margin-top: -1.75em;
-	border:0px
-}
-div{
-	margin-top: 0.6em;
-	height:2.5em;
-	vertical-align: baseline;
-
-}
-.gLabel{
-	float:left;
-}
-.radio{
-	border: 1px solid black;
-	margin-top: 0.5em;
-}
-.title{
-	margin-top: 2em;
-}
-div label{
-	position:relative;
-	top:0.4em;
-}
-.rdbLabel{
-	float:left;
-	margin-left: -1em;
-	margin-top: 0.15em;
+	border: 0px
 }
 
-.accessibility {
-	visibility:hidden;
-	width:0;
-	height:0;
-	position:absolute;
-	left:-999px;
-	top:-999px;
+p{
+	height: 2.5em;
+	margin-left: -0.75em;
+}
+
+p label{
+	position: relative;
+	top: 0.4em;
 }
 
 footer{
-	max-width:23em;
-	margin-top:-1.5em;
-	margin-left:auto;
-	margin-right:auto;
+	margin-top: 2em;
+	max-width: 25em;
+	margin-left: auto;
+	margin-right: auto;
 	max-height: 20em;
 }
-footer p
-{
-	margin-top:3.5em;
-	vertical-align: center;
+
+.dist{
+	margin-bottom: 1em;
 }
 
-/*******************************************
- ************** ACCESSIBILITY **************
- *******************************************/
+.footer
+{
+	max-width: 25em;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+#container{
+	width: 400px;
+}
 
+#male{
+	margin-bottom: -5em;
+}
+
+#female{
+	margin-bottom: -5em;
+}

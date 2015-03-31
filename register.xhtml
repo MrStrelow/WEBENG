@@ -1,75 +1,119 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<html xmlns = "http://www.w3.org/1999/xhtml" lang = "de">
 	<head>
+<<<<<<< HEAD
 		<meta charset="UTF-8" http-equiv="content-type" content="application/xhtml+xml"/>
 		<link rel="stylesheet" href="styles/register.css"/>
 		<title>HTML5 Beispiel</title>
+=======
+		<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
+		<link rel = "stylesheet" href = "styles/register.css"/>
+		<link rel = "stylesheet" href = "styles/bootstrap.min.css"/>
+		<title>Jeopardy!</title>
+>>>>>>> 72210e0f197e6116e63b689d8187570f815ce3fb
 	</head>
 	
 	<header>
-		<img src="img/big-logo-small.png" alt="Business Informatics Group"/>
-		
+		<img src = "img/big-logo-small.png" alt = "Business Informatics Group"/>
 		<font>Jeopardy!</font>
+		<nav>
+			<input type = "button" name = "cmd_Login" value = "Anmelden"/>
+		</nav>
 	</header>
-
-	<nav>
-		<input type="button" name="cmd_Login" value="Anmelden"/>
-	</nav>
 
 	<body>
 	<section>
 		<article>
 			<form>
-					<div class="title">
+				<div id = "container" class = "container">
+					<div class = "title">
 						<h2>Persönliche Daten</h2>
 					</div>
-					<div>
-						<label for="Vorname">Vorname:</label>
-						<input type="text" id="Vorname"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Vorname">Vorname:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "text" id = "Vorname"/>
+						</div>
 					</div>
-					<div>
-						<label for="Nachname">Nachname:</label>
-						<input type="text" id="Nachname"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Nachname">Nachname:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "text" id = "Nachname"/>
+						</div>
 					</div>
-					<div>
-						<label for="Geburtstag">Geburtstag:</label>
-						<input type="text" id="Nachname"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Geburtstag">Geburtstag:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "text" id = "Nachname"/>
+						</div>
 					</div>
-					<div class="radio">
-						<label class="gLabel" for="Geschlecht">Geschlecht:</label>
-						<input type="radio" id="m" name="Geschlecht" value="m"/><label class="rdbLabel" for="m">Männlich</label>
-						<input type="radio" id="w" name="Geschlecht" value="w"/><label class="rdbLabel" for="w">Weiblich</label>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Geschlecht">Geschlecht:</label>
+						</div>
+						<div class = "radio col-sm-6">
+							<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
+							<label for = "male">
+								Männlich
+							</label>
+							<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
+							<label for = "female">
+								Weiblich
+							</label>
+						</div>
 					</div>
-				
-					<div class="title">
+					<div class = "title">
 						<h2>Spielerdaten</h2>
 					</div>
-					<div>
-						<label for="Avatar">Avatar:</label>
-						<input type="text" id="Avatar" value="Aldrich Killian"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Avatar">Avatar:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "text" id = "Avatar" value = "Aldrich Killian"/>						
+						</div>
 					</div>
-					<div>
-						<label for="Username">Benutzername:</label>
-						<input type="text" id="Username"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Username">Benutzername*:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "text" id = "Username"/>						
+						</div>
 					</div>
-					<div>
-						<label for="Passwort">Passwort:</label>
-						<input type="password" id="Passwort"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+							<label for = "Passwort">Passwort*:</label>
+						</div>
+						<div class = "col-sm-6">
+							<input type = "password" id = "Passwort"/>
+						</div>
 					</div>
-					<div>
-						<input type="submit" name="cmdRegister" value="Registrieren"/>
+					<div class = "row dist">
+						<div class = "col-sm-6">
+						</div>
+						<div class = "col-sm-6">
+							<input type = "submit" name = "cmdRegister" value = "Registrieren"/>
+						</div>
 					</div>
+				</div>
 			</form>
 		</article>
 	</section>
-	<footer>
-		<div align="center">
-		<p class="footer">
-		Mit &quot;*&quot; gekennzeichnete Felder sind Pflichtfelder
-		</p>
-		<p class="footer">
-		&#169; 2015 BIG Jeopardy
-		</p>
+	<footer>		
+		<div align = "center">
+			<p class = "footer">
+				Mit &quot;*&quot; gekennzeichnete Felder sind Pflichtfelder
+			</p>
+			<p class = "footer">
+				&#169; 2015 BIG Jeopardy
+			</p>
 		</div>
 	</footer>
 	</body>
