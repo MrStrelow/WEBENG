@@ -24,41 +24,45 @@
 						<h2>Persönliche Daten</h2>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Vorname">Vorname:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "text" id = "Vorname"/>
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Nachname">Nachname:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "text" id = "Nachname"/>
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Geburtstag">Geburtstag:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "text" id = "Nachname"/>
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Geschlecht">Geschlecht:</label>
 						</div>
-						<div class = "radio col-sm-6">
-							<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
-							<label for = "male">
-								Männlich
+						<div class = "radio col-sm-7">
+							<label id = "radiolabelm">
+								<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
+								<label id = "malelabel">
+									Männlich
+								</label>
 							</label>
-							<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
-							<label for = "female">
-								Weiblich
+							<label id = "radiolabelf">
+								<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
+								<label id = "femalelabel">
+									Weiblich
+								</label>
 							</label>
 						</div>
 					</div>
@@ -66,34 +70,34 @@
 						<h2>Spielerdaten</h2>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Avatar">Avatar:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "text" id = "Avatar" value = "Aldrich Killian"/>						
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Username">Benutzername*:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "text" id = "Username"/>						
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 							<label for = "Passwort">Passwort*:</label>
 						</div>
-						<div class = "col-sm-6">
+						<div class = "col-sm-7">
 							<input type = "password" id = "Passwort"/>
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-6">
+						<div class = "col-sm-5">
 						</div>
-						<div class = "col-sm-6">
-							<input type = "submit" name = "cmdRegister" value = "Registrieren"/>
+						<div class = "col-sm-7">
+							<input id = "register" type = "submit" name = "cmdRegister" value = "Registrieren"/>
 						</div>
 					</div>
 				</div>
