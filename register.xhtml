@@ -4,6 +4,7 @@
 		<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
 		<link rel = "stylesheet" href = "styles/register.css"/>
 		<link rel = "stylesheet" href = "styles/bootstrap.min.css"/>
+		<script src="js/ourscript.js"/>
 		<title>Jeopardy!</title>
 	</head>
 	
@@ -18,7 +19,7 @@
 	<body>
 	<section>
 		<article>
-			<form>
+			<form name="registerForm">
 				<div id = "container" class = "container">
 					<div class = "title">
 						<h2>Persönliche Daten</h2>
@@ -82,7 +83,7 @@
 							<label for = "Username">Benutzername*:</label>
 						</div>
 						<div class = "col-sm-7">
-							<input type = "text" id = "Username"/>						
+							<input type = "text" id = "Username" onchange="checkUserAndPassword()"/>						
 						</div>
 					</div>
 					<div class = "row dist">
@@ -90,14 +91,14 @@
 							<label for = "Passwort">Passwort*:</label>
 						</div>
 						<div class = "col-sm-7">
-							<input type = "password" id = "Passwort"/>
+							<input type = "password" id = "Passwort" onchange="checkUserAndPassword()"/>
 						</div>
 					</div>
 					<div class = "row dist">
 						<div class = "col-sm-5">
 						</div>
 						<div class = "col-sm-7">
-							<input id = "register" type = "submit" name = "cmdRegister" value = "Registrieren"/>
+							<input id = "register" type = "submit" name = "cmdRegister" value = "Registrieren" disabled="disabled"/>
 						</div>
 					</div>
 				</div>

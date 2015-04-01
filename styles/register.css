@@ -68,10 +68,13 @@ input[type = "submit"] {
     border: solid black;
 	border-width: thin;
     border-radius: 0.25em;
-	background-color: rgb(204,204,204);
 	color: white;
 	width: 8em;
 	font-size: 1em;
+	background-color: rgb(43, 196, 57);	
+}
+input[disabled="disabled"]{
+	background-color: rgb(204,204,204);
 }
 
 .diabledInput{
