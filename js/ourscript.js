@@ -7,7 +7,7 @@ function checkUserAndPassword(){
 	var user = document.getElementById("Username").value;
 	var pw = document.getElementById("Passwort").value;
 	if(user.length <= 8 && user.length >= 4 && pw.length <= 8 && pw.length >= 4){
-		regBut.setAttribute('disabled','');
+		regBut.disabled = false;
 	}
 	else{
 		regBut.setAttribute('disabled','disabled');
