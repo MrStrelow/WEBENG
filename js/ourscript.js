@@ -13,7 +13,10 @@ function checkUserAndPassword(){
 		regBut.setAttribute('disabled','disabled');
 	}
 	
-	//alert(pw);
+}
+
+function validateDate(){
+	
 }
 
 window.onerror = function(msg, url, linenumber) {
