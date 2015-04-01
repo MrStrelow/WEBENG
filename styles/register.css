@@ -29,17 +29,17 @@ header img{
 
 nav input{
 	float: right;
-	height: 2.5em;
-	width: 12em;
+	width: 10em;
 	background-color: #F77000;
 	color: white;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 1em;
+	font-weight: bold;
+	font-size: 1.2em;
 	border-width: 0.1em;
 	border-color: rgb(120,70,0);
-	margin-top: -1em;
+	margin-top: -0.8em;
 	margin-right: 1em;
+	padding: 0.3em 0 0.3em 0;
 }
 
 body{
@@ -52,6 +52,7 @@ article{
 }
 
 input[type = "text"], input[type = "password"]{
+	text-indent: 1em;
     border: 1px solid rgb(3,52,95);
     background-color: #ffffff;
     border-radius: 0.3em;
@@ -64,7 +65,8 @@ input[type = "radio"] {
 }
 
 input[type = "submit"] {
-    border: 0.1em solid black;
+    border: solid black;
+	border-width: thin;
     border-radius: 0.25em;
 	background-color: rgb(204,204,204);
 	color: white;
@@ -100,6 +102,7 @@ footer{
 	max-width: 25em;
 	margin-left: auto;
 	margin-right: auto;
+	height: 8em;
 	max-height: 20em;
 }
 
