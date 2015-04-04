@@ -22,15 +22,83 @@
 		</header>
 
 		<section>
-			<div class="info" color="green">
-				<p>Du hast richtig geantwortet: +1000 €</p>
-			</div>
-			<div class="info" color="red">
-				<p>Deadpool hat falsch geantwortet: -500 €</p>
-			</div>
-			<div class="info">
-				<p>Deadpool hat TUWIEN f&uuml;r € 1000 gew&auml;hlt.</p>
-			</div>
+			<section class="infos">
+				<div class="info" color="green">
+					<p>Du hast richtig geantwortet: +1000 €</p>
+				</div>
+				<div class="info" color="red">
+					<p>Deadpool hat falsch geantwortet: -500 €</p>
+				</div>
+				<div class="info">
+					<p>Deadpool hat TUWIEN f&uuml;r € 1000 gew&auml;hlt.</p>
+				</div>
+			</section>
+
+			<section class="category">
+				<div class="title">
+					<p>TV</p>
+				</div>
+				<input type="button" name="100_euro" value="€ 100" inactive="yes"/>
+				<input type="button" name="200_euro" value="€ 200"/>
+				<input type="button" name="500_euro" value="€ 500"/>
+				<input type="button" name="750_euro" value="€ 750"/>
+			</section>
+
+			<section class="category">
+				<div class="title">
+					<p>SSD</p>
+				</div>
+				<input type="button" name="100_euro" value="€ 100"/>
+				<input type="button" name="200_euro" value="€ 200"/>
+				<input type="button" name="500_euro" value="€ 500" chosen="yes"/>
+				<input type="button" name="750_euro" value="€ 750"/>
+				<input type="button" name="1000_euro" value="€ 1000"/>
+			</section>
+
+			<section class="category">
+				<div class="title">
+					<p>Web</p>
+				</div>
+				<input type="button" name="100_euro" value="€ 100"/>
+				<input type="button" name="200_euro" value="€ 200"/>
+				<input type="button" name="500_euro" value="€ 500" inactive="yes"/>
+				<input type="button" name="750_euro" value="€ 750"/>
+				<input type="button" name="1000_euro" value="€ 1000"/>
+			</section>
+
+			<section class="category">
+				<div class="title">
+					<p>SPORT</p>
+				</div>
+				<input type="button" name="100_euro" value="€ 100"/>
+				<input type="button" name="200_euro" value="€ 200" inactive="yes"/>
+				<input type="button" name="500_euro" value="€ 500"/>
+				<input type="button" name="750_euro" value="€ 750"/>
+			</section>
+
+			<section class="category" last="yes">
+				<div class="title">
+					<p>TUWIEN</p>
+				</div>
+				<input type="button" name="100_euro" value="€ 100"/>
+				<input type="button" name="200_euro" value="€ 200"/>
+				<input type="button" name="500_euro" value="€ 500"/>
+				<input type="button" name="750_euro" value="€ 750"/>
+				<input type="button" name="1000_euro" value="€ 1000" inactive="yes"/>
+			</section>
+
+			<section class="chooseButton">
+				<div>
+					<input id="choose" type="submit" name="cmdChoose" value="w&auml;hlen"/>
+				</div>
+			</section>
+
+			<section class="lastgame">
+				<div>
+					<p>Letztes Spiel: 22.2.2015 11:07:00</p>
+				</div>
+			</section>
+
 		</section>
 
 		<aside>
