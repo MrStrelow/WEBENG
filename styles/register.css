@@ -1,135 +1,162 @@
 /*******************************************
  *********** HEADER & NAVIGATION ***********
  *******************************************/
-header{
+header {
 	background-color: #2E4984;
-	height: 4.4em;
+	height: 4.15em;
 }
 
-header font{
-	font-size: 1.75em;
-	color: white;
+header .headerFont {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+	font-size: 1.6em;
+	color: white;
 	font-weight: bold;
 	position: relative;
 	top: 0.6em;
 	margin-left: 0.6em;
-	width:10em;
 	
 }
 
-header img{
-	margin-top:0.35em;
-	margin-left:0.1em;
+header img {
+	margin-top: 0.35em;
+	margin-left: 0.1em;
 	float: left;
 	width: 3.75em;
 	height: 3.5em;
 	
 }
 
-nav input{
-	float: right;
-	width: 10em;
-	background-color: #F77000;
-	color: white;
+header input {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-weight: bold;
-	font-size: 1.2em;
+	display: inline-block;
+	float: right;
+	width: 9.75em;
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+	color: white;
+	font-size: 1.15em;
+	font-weight: 600;
+	border-style: solid;
 	border-width: 0.1em;
 	border-color: rgb(120,70,0);
-	margin-top: -0.8em;
+	margin-top: 0.85em;
 	margin-right: 1em;
-	padding: 0.3em 0 0.3em 0;
+	padding: 0.2em 0 0.2em 0;
 }
 
-body{
+body {
 	background: linear-gradient(white, rgb(211,216,232));
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-article{
-	font-size: 1em;
+section {
+	font-size: 1.15em;
 }
 
-input[type = "text"], input[type = "password"], input[type = "date"]{
+input[type="text"], input[type="password"], input[type="date"] {
+	height: 2em;
 	text-indent: 1em;
     border: 1px solid rgb(3,52,95);
     background-color: #ffffff;
     border-radius: 0.3em;
 }
 
-input[type = "radio"] {
+input[type="radio"] {
 	cursor: pointer;
 	background-color: white;	
 }
 
-input[type = "submit"] {
-    border: solid black;
+input[type="submit"] {
+	height: 2em;
+    border-style: solid;
+    border-color: rgb(86, 86, 86);
 	border-width: thin;
     border-radius: 0.25em;
 	color: white;
-	width: 8em;
-	font-size: 1em;
+	width: 9em;
+	font-family: sans-serif;
+	font-size: 1.1em;
 	background-color: rgb(43, 196, 57);	
 }
-input[disabled="disabled"]{
+input[disabled="disabled"] {
 	background-color: rgb(204,204,204);
 }
 
-.diabledInput{
+.diabledInput {
 	background-color: rgb(120,70,0);
  }
 
-article h2{
-	font-size: 1.5em;
-	color: rgb(0,107,190)
+section h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: rgb(0,107,190);
+	margin-bottom: 1em;
 }
-article fieldset{
+section fieldset {
 	margin-top: -1.75em;
 	border: 0px
 }
 
-p{
+p {
 	height: 2.5em;
 	margin-left: -0.75em;
 }
 
-p label{
+p label {
 	position: relative;
 	top: 0.4em;
 }
 
-footer{
-	margin-top: 2em;
-	max-width: 25em;
+footer {
+	text-align: center;
+	max-width: 27.7em;
 	margin-left: auto;
 	margin-right: auto;
 	height: 8em;
 	max-height: 20em;
 }
 
-.dist{
+.dist {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	margin-bottom: 1em;
 }
 
-.footer
-{
-	max-width: 25em;
+section label {
+	position: relative;
+	top: 0.2em;
+	font-weight: normal;
+}
+
+#malelabel, #femalelabel {
+	position: relative;
+	top: 0;
+}
+
+.footer {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.15em;
+	max-width: 27.7em;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 2em;
 }
 
 .accessibility {
-	position:absolute;
+	position: absolute;
 	left: -10000px;
-	width:1px;
-	height:1px;
-	overflow:hidden;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }
-.center{
+.center {
 	align: center;
 }
-.none{
+.none {
 	border: 0px;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
@@ -139,89 +166,89 @@ footer{
  **************** Usability ****************
  *******************************************/
 
-@media screen and (min-width: 768px){
-	input[type = "text"], input[type = "password"], input[type = "date"]{
+@media screen and (min-width: 768px) {
+	input[type="text"], input[type="password"], input[type="date"] {
 		width: 100%;
-		height: 30px;
+		font-family: sans-serif;
 	}
 	
-	input[type = "radio"]{
+	input[type="radio"] {
 		padding-left: 5%;
 	}
 	
-	input[type = "submit"]{
+	input[type="submit"] {
 		float: right;
 	}
 	
-	.radiolabel{
-		display: block;
+	.radiolabel {
+		display: inline;
 		float: left;
 	}
 	
-	#register{
+	#register {
 		margin-top: 1em;
-		width: 70%;
-		height: 30px;
+		width: 75%;
 	}
 	
-	#container{
-		width: 390px;
+	#container {
+		width: 27.7em;
 	}
 	
-	#femalelabel{
-		padding-left: 25%;
-		width: 80%;
+	#femalelabel {
+		width: auto;
 	}
 	
-	#malelabel{
-		padding-left: 25%;
-		width: 80%;
+	#malelabel {
+		width: auto;
 	}
 	
-	#radiolabelm{
+	#radiolabelm {
 		width: 45%;
 	}
 	
-	#radiolabelf{
+	#radiolabelf {
 		width: 45%;
 	}
 }
 
-@media screen and (max-width: 768px){	
-	#container{
+@media screen and (max-width: 768px) {	
+	#container {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
-	input[type = "text"], input[type = "password"], input[type = "submit"], input[type = "date"]{
-		width: 100%;
-		height: 30px;
+
+	header input {
+		width: auto;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
 	
-	input[type = "radio"]{
+	input[type="text"], input[type="password"], input[type="submit"], input[type="date"] {
+		width: 100%;
+	}
+	
+	input[type="radio"] {
 		padding-left: 5%;
 	}
 	
-	.radiolabel{
+	.radiolabel {
 		display: block;
 		float: left;
 	}	
 	
-	#femalelabel{
-		padding-left: 25%;
-		width: 80%;
+	#femalelabel {
+		width: auto;
 	}
 	
-	#malelabel{
-		padding-left: 25%;
-		width: 80%;
+	#malelabel {
+		width: auto;
 	}
 	
-	#radiolabelm{
+	#radiolabelm {
 		width: 25%;
 	}
 	
-	#radiolabelf{
+	#radiolabelf {
 		width: 25%;
 	}	
 }

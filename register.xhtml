@@ -1,7 +1,10 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
 <html xmlns = "http://www.w3.org/1999/xhtml" lang = "de">
-<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
+	
+	<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
+	
 	<head>
 		<link rel = "stylesheet" href = "styles/register.css"/>
 		<link rel = "stylesheet" href = "styles/bootstrap.min.css"/>
@@ -11,17 +14,15 @@
 		<title>Jeopardy!</title>
 	</head>
 
-	<header>
-		<img src = "img/big-logo-small.png" alt = "Business Informatics Group Logo"/>
-		<div class="headerFont">Jeopardy!</div>
-		<nav>
-			<input type = "button" name = "cmd_Login" value = "Anmelden"/>
-		</nav>
-	</header>
-
 	<body>
-	<section>
-		<article>
+
+		<header>
+			<img src = "img/big-logo-small.png" alt = "Business Informatics Group Logo"/>
+			<div class="headerFont">Jeopardy!</div>
+			<input type = "button" name = "cmd_Login" value = "Anmelden"/>
+		</header>
+
+		<section>
 			<form name="registerForm">
 				<div id = "container" class = "container">
 					<div class = "title">
@@ -58,18 +59,18 @@
 							<label>Geschlecht:</label>
 						</div>						
 							<div class = "radio col-sm-7">
-								<label id = "radiolabelm">
+								<label id = "radiolabelm" class="radio-inline">
 									<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
 									<label id = "malelabel" for="male">
 										Männlich
 									</label>
 								</label>
-								<label id = "radiolabelf">
-									<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
+								<label id = "radiolabelf" class="radio-inline">
+									<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
 									<label id = "femalelabel" for="female">
 										Weiblich
 									</label>
-								</label>
+								</label>								
 							</div>
 					</div>
 					</fieldset>
@@ -101,27 +102,28 @@
 						</div>
 					</div>
 					<div class = "row dist">
-						<div class = "col-sm-5">
-						</div>
+						<div class = "col-sm-5"/>
 						<div class = "col-sm-7">
 							<input id = "register" type = "submit" name = "cmdRegister" value = "Registrieren" disabled="disabled"/>
 						</div>
 					</div>
 				</div>
 			</form>
-		</article>
-	</section>
-	<footer>		
-		<div class="center">
-			<p class = "footer">
-				Mit &quot;*&quot; gekennzeichnete Felder sind Pflichtfelder
-			</p>
-			<p class = "footer">
-				&#169; 2015 BIG Jeopardy
-			</p>
-		</div>
-	</footer>
+		</section>
+
+		<footer>		
+			<div class="center">
+				<p class = "footer">
+					Mit &quot;*&quot; gekennzeichnete Felder sind Pflichtfelder
+				</p>
+				<p class = "footer">
+					&#169; 2015 BIG Jeopardy
+				</p>
+			</div>
+		</footer>
+
 	</body>
+
 </html>
 
 
