@@ -54,32 +54,78 @@ body {
 }
 
 aside {
+	color: black;
+	margin-top: 1em;
 	display: inline-block;
 	font-size: 1.15em;
-	width: 10em;
+	width: 15em;
 }
 
 .avatar, .name {
+	color: black;
 	display: inline-block;
+}
+
+.avatar img {
+	height: 5em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	border-radius: 0.3em;
 }
 
 .name {
-	padding-left: 0.5em;
+	padding-left: 0.3em;
 	color: black;
 }
 
-.name[selected=yes], .questions {
+.player[selected=yes], .questions {
 	font-weight: bold;
+
+}
+
+.player[selected=yes] .avatar img {
+	border-color: rgb(252,120,0);
+	border-width: 0.15em;
 }
 
 .player, .questions {
+	color: black;
 	display: block;
+	margin-bottom: 1em;
+}
+
+.info p {
+	color: black;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+	width: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+	border: 1px solid rgb(92, 95, 99);
+}
+
+.info[color="green"] p {
+	color: rgb(58, 153, 2);
+	border: 1px solid rgb(2, 153, 2);
+}
+
+.info[color="red"] p {
+	color: rgb(237, 8, 8);
+	border: 1px solid rgb(230, 8, 8);
 }
 
 section {
+	vertical-align: top;
+	margin-top: 1em;
+	padding-left: 8%;
+	padding-right: 1em;
 	color: black;
 	display: inline-block;
-	width: 20em;
+	width: 77.5%;
 	font-size: 1.15em;
 }
 
@@ -129,8 +175,13 @@ section fieldset {
 	border: 0px
 }
 
+section p {
+	vertical-align: top;
+}
+
 aside p {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
 	margin-bottom: 0.2em;
 }
 
