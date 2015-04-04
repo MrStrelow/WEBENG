@@ -53,11 +53,38 @@ body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+aside {
+	display: inline-block;
+	font-size: 1.15em;
+	width: 10em;
+}
+
+.avatar, .name {
+	display: inline-block;
+}
+
+.name {
+	padding-left: 0.5em;
+	color: black;
+}
+
+.name[selected=yes], .questions {
+	font-weight: bold;
+}
+
+.player, .questions {
+	display: block;
+}
+
 section {
+	color: black;
+	display: inline-block;
+	width: 20em;
 	font-size: 1.15em;
 }
 
 input[type="text"], input[type="password"], input[type="date"] {
+	color: black;
 	height: 2em;
 	text-indent: 1em;
     border: 1px solid rgb(3,52,95);
@@ -102,9 +129,9 @@ section fieldset {
 	border: 0px
 }
 
-p {
-	height: 2.5em;
-	margin-left: -0.75em;
+aside p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-bottom: 0.2em;
 }
 
 p label {
@@ -164,6 +191,7 @@ section label {
 .center {
 	align: center;
 }
+
 .none {
 	border: 0px;
 	padding: 0 0 0 0;

@@ -54,10 +54,12 @@ body {
 }
 
 section {
+	color: black;
 	font-size: 1.15em;
 }
 
 input[type="text"], input[type="password"], input[type="date"] {
+	color: black;
 	height: 2em;
 	text-indent: 1em;
     border: 1px solid rgb(3,52,95);
@@ -113,6 +115,7 @@ p label {
 }
 
 footer {
+	color: black;
 	font-size: 1.15em;
 	text-align: center;
 	max-width: 27.7em;
