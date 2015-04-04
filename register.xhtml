@@ -1,18 +1,19 @@
 <!DOCTYPE html>
+
 <html xmlns = "http://www.w3.org/1999/xhtml" lang = "de">
+<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
 	<head>
-		<meta charset = "UTF-8" http-equiv = "content-type" content = "application/xhtml+xml"/>
 		<link rel = "stylesheet" href = "styles/register.css"/>
 		<link rel = "stylesheet" href = "styles/bootstrap.min.css"/>
-		<script src="js/ourscript.js"/>
+		<script src="js/jquery.js" type="text/javascript"/>
+		<script src="js/framework.js" type="text/javascript"/>
+		<script src="js/ourscript.js" type="text/javascript"/>
 		<title>Jeopardy!</title>
 	</head>
-	<script language="javascript" src="js/jquery.js" type="text/javascript"/>
-	<script language="javascript" src="js/framework.js" type="text/javascript"/>
-	<script language="javascript" src="js/ourscript.js" type="text/javascript"/>
+
 	<header>
-		<img src = "img/big-logo-small.png" alt = "Business Informatics Group"/>
-		<font>Jeopardy!</font>
+		<img src = "img/big-logo-small.png" alt = "Business Informatics Group Logo"/>
+		<div class="headerFont">Jeopardy!</div>
 		<nav>
 			<input type = "button" name = "cmd_Login" value = "Anmelden"/>
 		</nav>
@@ -50,25 +51,28 @@
 							<input type = "date" id = "Geburtstag" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" oninput="check()"/>
 						</div>
 					</div>
+					<fieldset class="none">
+					<legend class="accessibility">Geschlecht</legend>
 					<div class = "row dist">
 						<div class = "col-sm-5">
-							<label for = "Geschlecht">Geschlecht:</label>
-						</div>
-						<div class = "radio col-sm-7">
-							<label id = "radiolabelm">
-								<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
-								<label id = "malelabel">
-									Männlich
+							<label>Geschlecht:</label>
+						</div>						
+							<div class = "radio col-sm-7">
+								<label id = "radiolabelm">
+									<input type = "radio" id = "male" name = "Geschlecht" value = "male"/>
+									<label id = "malelabel" for="male">
+										Männlich
+									</label>
 								</label>
-							</label>
-							<label id = "radiolabelf">
-								<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
-								<label id = "femalelabel">
-									Weiblich
+								<label id = "radiolabelf">
+									<input type = "radio" id = "female" name = "Geschlecht" value = "female"/>
+									<label id = "femalelabel" for="female">
+										Weiblich
+									</label>
 								</label>
-							</label>
-						</div>
+							</div>
 					</div>
+					</fieldset>
 					<div class = "title">
 						<h2>Spielerdaten</h2>
 					</div>
@@ -108,7 +112,7 @@
 		</article>
 	</section>
 	<footer>		
-		<div align = "center">
+		<div class="center">
 			<p class = "footer">
 				Mit &quot;*&quot; gekennzeichnete Felder sind Pflichtfelder
 			</p>

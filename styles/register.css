@@ -119,6 +119,22 @@ footer{
 	margin-right: auto;
 }
 
+.accessibility {
+	position:absolute;
+	left: -10000px;
+	width:1px;
+	height:1px;
+	overflow:hidden;
+}
+.center{
+	align: center;
+}
+.none{
+	border: 0px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
 /*******************************************
  **************** Usability ****************
  *******************************************/
