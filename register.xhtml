@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
 	
 	<head>
-		<meta charset="UTF-8" http-equiv="content-type" content="application/xhtml+xml"/>
+		<meta charset="UTF-8"/>
 		<link rel="stylesheet" href="styles/register.css"/>
 		<link rel="stylesheet" href="styles/bootstrap.min.css"/>
 		<script src="js/jquery.js" type="text/javascript"/>
@@ -48,7 +48,7 @@
 							<label for="Geburtstag">Geburtstag:</label>
 						</div>
 						<div class="col-sm-7">
-							<input type="date" id="Geburtstag" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" oninput="check()"/>
+							<input type="text" id="Geburtstag" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" oninput="check()"/>
 						</div>
 					</div>
 					<fieldset class="none">
@@ -60,15 +60,17 @@
 							<div class="radio col-sm-7">
 								<label id="radiolabelm" class="radio-inline">
 									<input type="radio" id="male" name="Geschlecht" value="male"/>
-									<label id="malelabel" for="male">
+<!--									<label id="malelabel" for="male">
 										Männlich
 									</label>
+-->								M&#228;nnlich	
 								</label>
 								<label id="radiolabelf" class="radio-inline">
-									<input type="radio" id="male" name="Geschlecht" value="male"/>
-									<label id="femalelabel" for="female">
+									<input type="radio" id="female" name="Geschlecht" value="male"/>
+<!--									<label id="femalelabel" for="female">
 										Weiblich
 									</label>
+-->									Weiblich
 								</label>								
 							</div>
 					</div>
