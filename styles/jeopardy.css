@@ -359,7 +359,7 @@ section label {
  **************** Usability ****************
  *******************************************/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	input[type="text"], input[type="password"], input[type="date"] {
 		width: 100%;
 		font-family: sans-serif;
@@ -404,10 +404,14 @@ section label {
 	}
 }
 
-@media screen and (max-width: 768px) {	
+@media screen and (min-width: 768px) and (max-width: 1024px) {	
 	#container {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	aside {
+		display: inline;
 	}
 
 	header input {
@@ -446,5 +450,77 @@ section label {
 	}	
 }
 
+@media screen and (max-width: 768px) {	
+	#container {
+		margin-left: auto;
+		margin-right: auto;
+	}
 
- 
+	section {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0.1em;
+		padding-right: 0.1em;
+	}
+
+	.infos {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.infos p {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 0.75em;
+	}
+
+	aside {
+		display: inline;
+	}
+
+	section .category {
+		width: 100%;
+	}
+
+	section .chooseButton {
+		width: 100%;
+	}
+
+	header input {
+		width: auto;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	input[type="text"], input[type="password"], input[type="submit"], input[type="date"] {
+		width: 100%;
+	}
+	
+	input[type="radio"] {
+		padding-left: 5%;
+	}
+	
+	.radiolabel {
+		display: block;
+		float: left;
+	}	
+	
+	#femalelabel {
+		width: auto;
+	}
+	
+	#malelabel {
+		width: auto;
+	}
+	
+	#radiolabelm {
+		width: 25%;
+	}
+	
+	#radiolabelf {
+		width: 25%;
+	}	
+}
