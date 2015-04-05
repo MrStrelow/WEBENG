@@ -2,7 +2,7 @@
  *********** HEADER & NAVIGATION ***********
  *******************************************/
 header {
-	background-color: #2E4984;
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125));
 	height: 4.15em;
 }
 
@@ -20,7 +20,7 @@ header .headerFont {
 
 header img {
 	margin-top: 0.35em;
-	margin-left: 0.1em;
+	margin-left: 0.4em;
 	float: left;
 	width: 3.75em;
 	height: 3.5em;
@@ -37,7 +37,7 @@ header input {
 	font-size: 1.15em;
 	font-weight: 600;
 	border-style: solid;
-	border-width: 0.1em;
+	border-width: 1px;
 	border-color: rgb(120,70,0);
 	margin-top: 0.85em;
 	margin-right: 1em;
@@ -95,21 +95,31 @@ aside {
 	margin-bottom: 1em;
 }
 
+.infos {
+	padding-left: 0;
+	padding-right: 0em;
+	margin-top: 0;
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+	display: block;
+	width: 100%;
+	width: auto;
+	font-size: 1.25em;
+}
+
 .info p {
 	color: black;
 	padding-top: 0.2em;
 	padding-bottom: 0.2em;
-	margin-left: 6.5%;
-	margin-right: 6.5%;
+	margin-bottom: 0.3em;
 	width: auto;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 1.25em;
 	text-align: center;
 	border: 1px solid rgb(92, 95, 99);
 }
 
 .info[color="green"] p {
-	color: rgb(58, 153, 2);
+	color: rgb(2, 153, 2);
 	border: 1px solid rgb(2, 153, 2);
 }
 
@@ -125,7 +135,7 @@ section {
 	padding-right: 1em;
 	color: black;
 	display: inline-block;
-	width: 77.5%;
+	width: 77.2%;
 	font-size: 1.15em;
 }
 
@@ -211,6 +221,102 @@ section label {
 	font-weight: normal;
 }
 
+.category {
+	margin-top: 1em;
+	margin-right: 0.12em;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	width: 19.5%;
+	display: inline-block;
+}
+
+.category[last="yes"] {
+	margin-right: 0;
+}
+
+.category .title {
+	display: block;
+	width: 100%;
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(120,70,0);
+	margin-bottom: 0.2em;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.15em;
+}
+
+.category .title p {
+	vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgb(23, 43, 87);
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.category input {
+	display: block;
+	width: 100%;
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125));
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-bottom: 0.2em;
+	padding: 0.5em 0 0.5em 0;
+	vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.15em;
+	color: white;
+	text-align: center;
+}
+
+.category input[inactive="yes"] {
+	background: rgb(211, 216, 227);
+	color: rgb(146, 147, 150);
+	border-color: rgb(92, 95, 99);
+}
+
+
+.category input[chosen="yes"] {
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+}
+
+.lastgame {
+	font-size: 1em;
+	margin-top: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	width: auto;
+}
+
+.lastgame div p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+}
+
+.chooseButton {
+	font-size: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-top: 1.5em;
+	width: 100%;
+	font-size: 1em;
+}
+
+.chooseButton div {
+	height: 2em;
+}
+
+.chooseButton input {
+	width: 13.25%;
+	background: linear-gradient(rgb(53, 210, 67), rgb(33, 181, 46));
+	border-color: rgb(17, 109, 1);
+}
+
 #malelabel, #femalelabel {
 	position: relative;
 	top: 0;
@@ -226,6 +332,7 @@ section label {
 
 .footer {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
 	max-width: 27.7em;
 	margin-left: auto;
 	margin-right: auto;
