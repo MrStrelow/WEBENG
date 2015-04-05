@@ -427,6 +427,7 @@ section label {
 
 	.player[id="2"] {
 		float: right;
+		direction: rtl;
 	}
 
 	.questions p {
@@ -511,7 +512,6 @@ section label {
 
 	.player .name {
 		height: 3.3em;
-		margin-bottom: -0.5em;
 	}
 
 	.player[id="1"] {
@@ -520,6 +520,7 @@ section label {
 
 	.player[id="2"] {
 		float: right;
+		direction: rtl;
 	}
 
 	.questions p {
