@@ -165,9 +165,7 @@ input[type="submit"] {
 	font-size: 1.1em;
 	background-color: rgb(43, 196, 57);	
 }
-input[disabled="disabled"] {
-	background-color: rgb(204,204,204);
-}
+
 
 .diabledInput {
 	background-color: rgb(120,70,0);
@@ -272,16 +270,17 @@ section label {
 	text-align: center;
 }
 
-.category input[inactive="yes"] {
+.category input[disabled="disabled"] {
 	background: rgb(211, 216, 227);
 	color: rgb(146, 147, 150);
 	border-color: rgb(92, 95, 99);
 }
 
-
+/**
 .category input[chosen="yes"] {
 	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
 }
+*/
 
 .lastgame {
 	font-size: 1em;

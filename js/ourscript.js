@@ -1,7 +1,5 @@
-
 function check(){
-	//var user = Document.registerForm.Username.value;
-	//var pw = Document.registerForm.Passwort.value;
+
 	var birt = document.getElementById("Geburtstag");
 	var regBut = document.getElementById("register");
 	var user = document.getElementById("Username").value;
@@ -16,8 +14,8 @@ function check(){
 	
 }
 
-
 window.onerror = function(msg, url, linenumber) {
     alert('Error message: '+msg+'\nURL: '+url+'\nLine Number: '+linenumber);
     return true;
 }
+
