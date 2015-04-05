@@ -421,15 +421,17 @@ section label {
 		display: inline-block;
 	}
 
-	.player #1 {
+	.player[id="1"] {
 		float: left;
 	}
 
-	.player #1 {
+	.player[id="2"] {
 		float: right;
 	}
 
 	.questions p {
+		margin-top: 6em;
+		display: block;
 		text-align: center;
 	}
 
@@ -501,6 +503,34 @@ section label {
 	#container {
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.player {
+		display: inline-block;
+	}
+
+	.player .name {
+		height: 3.3em;
+		margin-bottom: -0.5em;
+	}
+
+	.player[id="1"] {
+		float: left;
+	}
+
+	.player[id="2"] {
+		float: right;
+	}
+
+	.questions p {
+		margin-top: 5em;
+		display: block;
+		text-align: center;
+	}
+
+	.avatar img {
+		vertical-align: bottom;
+		height: 3.3em;
 	}
 
 	section {
