@@ -58,7 +58,7 @@ aside {
 	margin-top: 1em;
 	display: inline-block;
 	font-size: 1.15em;
-	width: 15em;
+	width: auto;
 }
 
 .avatar, .name {
@@ -132,7 +132,7 @@ section {
 	vertical-align: top;
 	margin-top: 1em;
 	padding-left: 8%;
-	padding-right: 1em;
+	padding-right: 0.5%;
 	color: black;
 	display: inline-block;
 	width: 77.2%;
@@ -221,11 +221,11 @@ section label {
 
 .category {
 	margin-top: 1em;
-	margin-right: 0.12em;
+	margin-right: 0.1%;
 	padding-left: 0;
 	padding-right: 0;
 	display: block;
-	width: 19.5%;
+	width: 19.4%;
 	display: inline-block;
 }
 
@@ -282,6 +282,13 @@ section label {
 }
 */
 
+.activeButton {
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0)) !important;
+}
+.inactiveButton {
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125)) !important;
+}
+
 .lastgame {
 	font-size: 1em;
 	margin-top: 1em;
@@ -311,7 +318,7 @@ section label {
 }
 
 .chooseButton input {
-	width: 13.25%;
+	width: 8em;
 	background: linear-gradient(rgb(53, 210, 67), rgb(33, 181, 46));
 	border-color: rgb(17, 109, 1);
 }
@@ -410,6 +417,46 @@ section label {
 		margin-right: auto;
 	}
 
+	.player {
+		display: inline-block;
+	}
+
+	.player #1 {
+		float: left;
+	}
+
+	.player #1 {
+		float: right;
+	}
+
+	.questions p {
+		text-align: center;
+	}
+
+	section {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0.2%;
+		padding-right: 0.2%;
+	}
+
+	.infos {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.infos p {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.category {
+		width: 19.44%;
+	}
+
 	aside {
 		display: inline;
 	}
@@ -420,12 +467,12 @@ section label {
 		padding-right: 0.5em;
 	}
 	
-	input[type="text"], input[type="password"], input[type="submit"], input[type="date"] {
-		width: 100%;
-	}
-	
 	input[type="radio"] {
 		padding-left: 5%;
+	}
+
+	input[type="submit"] {
+		float: right;
 	}
 	
 	.radiolabel {
