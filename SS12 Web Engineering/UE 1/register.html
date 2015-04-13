@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Web Engineering Gruppe 55"/>
+		<meta name="language" content="de-AT"/>
+		<title>Business Informatics Group Quiz - Registration</title>
+		<link rel="stylesheet" type="text/css" href="styles/screen.css"/>
+	</head>
+	<body>
+		<header id="header">
+			<div id="logo">
+				<img src="img/big-logo-small.png" height="45" alt="Logo" />
+			</div>
+			<h1>Quiz</h1>
+			<a href="#" id="login-button">Anmelden</a>
+		</header>
+		<section>		
+			<div id="register-form">
+		<form name="register-form">
+			
+				<h2>Persönliche Daten</h2>
+				
+				<div class="form-field">
+					<label class="form-label">Vorname:</label> 
+					<input class="form-input" id="form-name" />
+				</div>
+				
+				<div class="form-field">
+					<label class="form-label" >Nachname:</label> 
+					<input class="form-input" id="form-surname" /> 
+				</div>
+				
+				<div class="form-field">
+					<label class="form-label">Geburtstag:</label>
+					<input oninput="check()" type="date" class="form-input" id="form-birthdate" pattern="\d{1,2}/\d{1,2}/\d{4}" />
+				</div>
+				
+				<div class="form-field">
+					<label class="form-label">Geschlecht:</label>
+					<select class="form-input" id="form-sex"> 
+						<option value="male">Männlich</option>
+						<option value="female">Weiblich</option>
+					</select>
+				</div>	
+				
+				<h2>Login Daten</h2>
+				
+				<div class="form-field">
+					<label class="form-label">Benutzername*:</label> 
+					<input oninput="check()" class="form-input" id="form-nickname" required pattern=".{4,8}" />
+				</div>	
+				
+				<div class="form-field">
+					<label class="form-label">Passwort*:</label> 
+					<input oninput="check()" class="form-input" id="form-password" required pattern=".{4,8}" />
+				</div>	
+				
+				<div id="register-button-container">
+					<input type="submit" name="register" id="register-button" class="invalid-register-button" value="Registrieren" disabled/>
+				</div>
+				
+				<div id="block-info">
+					<p>Mit "*" gekennzeichnete Felder sind Pflichtfelder</p>
+				</div>
+
+		</form>
+				
+			</div>
+			<div id="block_copyright">
+				<p>&copy 2014 BIG Quiz</p>
+			</div>
+			
+		</section>	
+		
+		<script language="javascript" src="js/jquery.js" type="text/javascript"></script>
+		<script language="javascript" src="js/framework.js" type="text/javascript"></script>
+		<script type="text/javascript">
+      			function check() {
+				var nick = document.getElementById("form-nickname");	
+				var pass = document.getElementById("form-password");
+				var birt = document.getElementById("form-birthdate");
+				if (nick.validity.valid == true && pass.validity.valid == true && birt.validity.valid == true ) {
+					document.getElementById("register-button").className = "valid-register-button";
+				} else {
+					document.getElementById("register-button").className = "invalid-register-button";
+				}
+			}
+		</script>
+		
+	</body>
+</html>

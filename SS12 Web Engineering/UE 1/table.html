@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Web Engineering Gruppe 55" />
+		<meta name="language" content="de-AT" />
+		<title>Business Informatics Group Quiz</title>
+		<link rel="stylesheet" type="text/css" href="styles/screen.css" /> 
+	</head>
+	<body>
+	<!-- Dieses Dokument sollte ohne seine Stylesheets immer noch gelesen werden können -->
+		<header id="header">
+			<div id="logo">
+				<img src="img/big-logo-small.png" alt="Logo von BIG(Business Informatics Group)" />
+			</div>
+			<h1>Quiz</h1>
+			<h1 class="accessibility">Quiz von BIG(Business Informatics Group)</h1>
+			<a href="#" id="login-button" title="Mit diesem Link melden Sie sich zu ... an">Anmelden</a>
+			<!-- Der Linktext wird durch title-Attribut erängzt und verdeutlicht H33 -->
+		</header>
+		<section>
+		<div id="rundenstand_container">
+			<hr class="accessibility" />
+			<h2 class="accessibility">Aktueller Rundenstand der Spieler</h2><!-- G141, H42, H69, T3, G130 -->
+			<div id="block_rundenstand_spieler_1"> 
+				<h3 class="accessibility">Rundenstand von:</h3>
+				<p>Spieler 1</p>
+				<img class="r-stand_spieler" src="img/correct-white.png" alt="richtig beantwortet" />
+				<!-- Screen-Reader lesen alt-Attrubute, ein longdesc-Attribut sollte hier nicht notwenig sein H37 -->
+				<img class="r-stand_spieler" src="img/incorrect-white.png" alt="nicht richtig beantwortet" />
+				<img src="img/unknown-white.png" alt="noch nicht beantwortet" />
+			</div>
+			<div id="block_rundenstand_spieler_2">
+				<h3 class="accessibility">Rundenstand von:</h3>
+				<p>Spieler 2</p>
+				<img class="r-stand_spieler" src="img/correct-white.png" alt="richtig beantwortet" />
+				<img class="r-stand_spieler" src="img/correct-white.png" alt="richtig beantwortet" />
+				<img src="img/unknown-white.png" alt="noch nicht beantwortet" />
+			</div>
+		</div>
+			<form>
+			<hr class="accessibility" />
+			<h2 class="accessibility">Aktuelle Kategorie</h2>
+			<div id="block_aktuelle_kategorie"><p>EWA</p>
+			</div>
+			<h3 class="accessibility">Aktuelle Frage</h3>
+			<div id="block_aktuelle_frage"><p>Welche zwei LVAs werden im Modul EWA zusammengefasst?</p>
+			</div>
+			<h4 class="accessibility">Antwortm&ouml;glichkeiten</h4>
+			<div id="block_fragenpaar_1"> 
+				<button id="button_1" type="button">IT Strategie</button>
+				<button id="button_2" type="button">Web Engineering</button>
+			</div>	
+			<div id="block_fragenpaar_2">
+				<button id="button_3" type="button">Semistrukturierte Daten</button>
+				<button id="button_4" type="button">Objektorientierte Modellierung</button>
+			</div>
+			<h4 class="accessibility">Antworten zur Bewertung abgeben</h4>
+			<div id="weiter-button-container">
+				<input type="submit" name="register" id="weiter-button" value="weiter" />
+			</div>
+			<hr class="accessibility" />
+			<div id="block_verbleibende_zeit">
+				<p id="text_verbleibend">Verbleibende Zeit: 00:30</p>
+				<meter value="19" min="0" max="30">30 von 30 Sekunden</meter><!--<progress value="30" max="30"></progress>-->
+			</div>
+			<div id="block_letztes_spiel">
+				<p>Letztes Spiel: Nie</p>
+			</div>
+			<div id="block_copyright">
+				<p>&copy; 2014 BIG Quiz</p>
+			</div>
+
+			</form>
+			
+		</section>	
+
+		<script language="javascript" src="js/jquery.js" type="text/javascript"></script>
+		<script language="javascript" src="js/framework.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			var i = 30;
+			window.setInterval(function(){
+				document.getElementsByTagName("meter")[0].setAttribute("value", i); 
+				document.getElementById("text_verbleibend").innerHTML = "Verbleibende Zeit: " + secToMMSS(i);
+
+				i = i - 1;
+				if(i == -1){
+					i = 30;
+				}
+			}, 1000);
+		</script>
+	</body>
+</html>
+
