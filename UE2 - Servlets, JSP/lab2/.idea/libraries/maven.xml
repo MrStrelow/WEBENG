@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="maven">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/maven-jarsigner-plugin-1.4-source-release.zip!/maven-jarsigner-plugin-1.4/src/it/basic/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-jarsigner-plugin-1.4-source-release.zip!/maven-jarsigner-plugin-1.4/src/it/spacy path/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-jarsigner-plugin-1.4-source-release.zip!/maven-jarsigner-plugin-1.4/src/it/unsign/src/main/java" />
+      <root url="jar://$PROJECT_DIR$/lib/maven-jarsigner-plugin-1.4-source-release.zip!/maven-jarsigner-plugin-1.4/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
