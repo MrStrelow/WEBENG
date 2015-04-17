@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="817b3067-7c19-47f0-86d8-3f46a4c51f3f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/BigJeopardyServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/BigJeopardyServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/NewGameServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/NewGameServlet.java" />
-    </list>
+    <list default="true" id="817b3067-7c19-47f0-86d8-3f46a4c51f3f" name="Default" comment="" />
     <ignored path="we15-lab2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -928,7 +924,7 @@
       <updated>1428952063537</updated>
       <workItem from="1428952066818" duration="200000" />
       <workItem from="1429283331750" duration="10322000" />
-      <workItem from="1429294387912" duration="865000" />
+      <workItem from="1429294387912" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="einrichtung maven-lib">
       <created>1429286697118</created>
@@ -964,7 +960,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11387000" />
+    <option name="totallyTimeSpent" value="11563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
