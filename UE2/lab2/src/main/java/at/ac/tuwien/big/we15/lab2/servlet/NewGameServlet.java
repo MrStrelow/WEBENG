@@ -23,6 +23,6 @@ public class NewGameServlet extends HttpServlet{
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //redirect
+        //getCatjegories -> session schreiben -> aufbau im jsp
     }
 }

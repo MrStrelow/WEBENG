@@ -1,0 +1,604 @@
+/*******************************************
+ *********** HEADER & NAVIGATION ***********
+ *******************************************/
+header {
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125));
+	height: 4.15em;
+}
+
+header .headerFont {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+	font-size: 1.6em;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: 0.6em;
+	margin-left: 0.6em;
+	
+}
+
+header img {
+	margin-top: 0.35em;
+	margin-left: 0.4em;
+	float: left;
+	width: 3.75em;
+	height: 3.5em;
+	
+}
+
+header input {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	display: inline-block;
+	float: right;
+	width: 9.75em;
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+	color: white;
+	font-size: 1.15em;
+	font-weight: 600;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(120,70,0);
+	margin-top: 0.85em;
+	margin-right: 1em;
+	padding: 0.2em 0 0.2em 0;
+}
+
+body {
+	background: linear-gradient(white, rgb(211,216,232));
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+aside {
+	color: black;
+	margin-top: 1em;
+	display: inline-block;
+	font-size: 1.15em;
+	width: auto;
+}
+
+.avatar, .name {
+	color: black;
+	display: inline-block;
+}
+
+.avatar img {
+	height: 5em;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	border-radius: 0.3em;
+}
+
+.name {
+	padding-left: 0.3em;
+	color: black;
+}
+
+.player[selected=yes], .questions {
+	font-weight: bold;
+
+}
+
+.player[selected=yes] .avatar img {
+	border-color: rgb(252,120,0);
+	border-width: 0.15em;
+}
+
+.player, .questions {
+	color: black;
+	display: block;
+	margin-bottom: 1em;
+}
+
+.infos {
+	padding-left: 0;
+	padding-right: 0em;
+	margin-top: 0;
+	margin-left: 6.5%;
+	margin-right: 6.5%;
+	display: block;
+	width: 100%;
+	width: auto;
+	font-size: 1.25em;
+}
+
+.info p {
+	color: black;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.3em;
+	width: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	border: 1px solid rgb(92, 95, 99);
+}
+
+.info[color="green"] p {
+	color: rgb(2, 153, 2);
+	border: 1px solid rgb(2, 153, 2);
+}
+
+.info[color="red"] p {
+	color: rgb(237, 8, 8);
+	border: 1px solid rgb(230, 8, 8);
+}
+
+section {
+	vertical-align: top;
+	margin-top: 1em;
+	padding-left: 8%;
+	padding-right: 0.5%;
+	color: black;
+	display: inline-block;
+	width: 77.2%;
+	font-size: 1.15em;
+}
+
+input[type="text"], input[type="password"], input[type="date"] {
+	color: black;
+	height: 2em;
+	text-indent: 1em;
+    border: 1px solid rgb(3,52,95);
+    background-color: #ffffff;
+    border-radius: 0.3em;
+}
+
+input[type="radio"] {
+	cursor: pointer;
+	background-color: white;	
+}
+
+input[type="submit"] {
+	height: 2em;
+    border-style: solid;
+    border-color: rgb(86, 86, 86);
+	border-width: thin;
+    border-radius: 0.25em;
+	color: white;
+	width: 9em;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	background-color: rgb(43, 196, 57);	
+}
+
+
+.diabledInput {
+	background-color: rgb(120,70,0);
+ }
+
+section h2 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: rgb(0,107,190);
+	margin-bottom: 1em;
+}
+section fieldset {
+	margin-top: -1.75em;
+	border: 0px
+}
+
+section p {
+	vertical-align: top;
+}
+
+aside p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+	margin-bottom: 0.2em;
+}
+
+p label {
+	position: relative;
+	top: 0.4em;
+}
+
+footer {
+	font-size: 1.15em;
+	text-align: center;
+	max-width: 27.7em;
+	margin-left: auto;
+	margin-right: auto;
+	height: 8em;
+	max-height: 20em;
+}
+
+.dist {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin-bottom: 1em;
+}
+
+section label {
+	position: relative;
+	top: 0.2em;
+	font-weight: normal;
+}
+
+.category {
+	margin-top: 1em;
+	margin-right: 0.1%;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	width: 19.4%;
+	display: inline-block;
+}
+
+.category[last="yes"] {
+	margin-right: 0;
+}
+
+.category .title {
+	display: block;
+	width: 100%;
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(120,70,0);
+	margin-bottom: 0.2em;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.15em;
+}
+
+.category .title p {
+	vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgb(23, 43, 87);
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.category input {
+	display: block;
+	width: 100%;
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125));
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin-bottom: 0.2em;
+	padding: 0.5em 0 0.5em 0;
+	vertical-align: middle;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.15em;
+	color: white;
+	text-align: center;
+}
+
+.category input[disabled="disabled"] {
+	background: rgb(211, 216, 227);
+	color: rgb(146, 147, 150);
+	border-color: rgb(92, 95, 99);
+}
+
+/**
+.category input[chosen="yes"] {
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0));
+}
+*/
+
+.activeButton {
+	background: linear-gradient(rgb(251,119,0), rgb(230,109,0)) !important;
+}
+.inactiveButton {
+	background: linear-gradient(rgb(53, 81, 142), rgb(41, 68, 125)) !important;
+}
+
+.lastgame {
+	font-size: 1em;
+	margin-top: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	width: auto;
+}
+
+.lastgame div p {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+}
+
+.chooseButton {
+	font-size: 1em;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-top: 1.5em;
+	width: 100%;
+	font-size: 1em;
+}
+
+.chooseButton div {
+	height: 2em;
+}
+
+.chooseButton input {
+	width: 8em;
+	background: linear-gradient(rgb(53, 210, 67), rgb(33, 181, 46));
+	border-color: rgb(17, 109, 1);
+}
+
+#malelabel, #femalelabel {
+	position: relative;
+	top: 0;
+}
+
+.pflichtFelderFont {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: center;
+	max-width: 27.7em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: black;
+	max-width: 27.7em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.25em;
+}
+
+.accessibility {
+	position: absolute;
+	left: -10000px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.center {
+	align: center;
+}
+
+.none {
+	border: 0px;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+/*******************************************
+ **************** Usability ****************
+ *******************************************/
+
+@media screen and (min-width: 1024px) {
+	input[type="text"], input[type="password"], input[type="date"] {
+		width: 100%;
+		font-family: sans-serif;
+	}
+	
+	input[type="radio"] {
+		padding-left: 5%;
+	}
+	
+	input[type="submit"] {
+		float: right;
+	}
+	
+	.radiolabel {
+		display: inline;
+		float: left;
+	}
+	
+	#register {
+		margin-top: 1em;
+		width: 75%;
+	}
+	
+	#container {
+		width: 27.7em;
+	}
+	
+	#femalelabel {
+		width: auto;
+	}
+	
+	#malelabel {
+		width: auto;
+	}
+	
+	#radiolabelm {
+		width: 45%;
+	}
+	
+	#radiolabelf {
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {	
+	#container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.player {
+		display: inline-block;
+	}
+
+	.player[id="1"] {
+		float: left;
+	}
+
+	.player[id="2"] {
+		float: right;
+		direction: rtl;
+	}
+
+	.questions p {
+		margin-top: 6em;
+		display: block;
+		text-align: center;
+	}
+
+	section {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0.2%;
+		padding-right: 0.2%;
+	}
+
+	.infos {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.infos p {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.category {
+		width: 19.44%;
+	}
+
+	aside {
+		display: inline;
+	}
+
+	header input {
+		width: auto;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	input[type="radio"] {
+		padding-left: 5%;
+	}
+
+	input[type="submit"] {
+		float: right;
+	}
+	
+	.radiolabel {
+		display: block;
+		float: left;
+	}	
+	
+	#femalelabel {
+		width: auto;
+	}
+	
+	#malelabel {
+		width: auto;
+	}
+	
+	#radiolabelm {
+		width: 25%;
+	}
+	
+	#radiolabelf {
+		width: 25%;
+	}	
+}
+
+@media screen and (max-width: 768px) {	
+	#container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.player {
+		display: inline-block;
+	}
+
+	.player .name {
+		height: 3.3em;
+	}
+
+	.player[id="1"] {
+		float: left;
+	}
+
+	.player[id="2"] {
+		float: right;
+		direction: rtl;
+	}
+
+	.questions p {
+		margin-top: 5em;
+		display: block;
+		text-align: center;
+	}
+
+	.avatar img {
+		vertical-align: bottom;
+		height: 3.3em;
+	}
+
+	section {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0.1em;
+		padding-right: 0.1em;
+	}
+
+	.infos {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.infos p {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		font-size: 0.75em;
+	}
+
+	aside {
+		display: inline;
+	}
+
+	section .category {
+		width: 100%;
+	}
+
+	section .chooseButton {
+		width: 100%;
+	}
+
+	header input {
+		width: auto;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	input[type="text"], input[type="password"], input[type="submit"], input[type="date"] {
+		width: 100%;
+	}
+	
+	input[type="radio"] {
+		padding-left: 5%;
+	}
+	
+	.radiolabel {
+		display: block;
+		float: left;
+	}	
+	
+	#femalelabel {
+		width: auto;
+	}
+	
+	#malelabel {
+		width: auto;
+	}
+	
+	#radiolabelm {
+		width: 25%;
+	}
+	
+	#radiolabelf {
+		width: 25%;
+	}	
+}
