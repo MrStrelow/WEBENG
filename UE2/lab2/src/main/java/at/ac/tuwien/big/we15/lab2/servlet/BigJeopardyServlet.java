@@ -22,6 +22,8 @@ public class BigJeopardyServlet extends HttpServlet{
 
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        //get
+        //getelements by name
+        //schreibe in session -> lade seite je nach dem was ausgewählt wurde
+        //redirect to question.jsp
     }
 }
