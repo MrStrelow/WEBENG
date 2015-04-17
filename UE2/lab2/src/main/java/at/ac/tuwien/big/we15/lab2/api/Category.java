@@ -45,7 +45,7 @@ public interface Category {
 	/**
 	 * adds a new question
 	 * 
-	 * @param question the question to add
+	 * @param questions the question to add
 	 */
 	public void setQuestions(List<Question> questions);
 

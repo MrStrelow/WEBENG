@@ -53,7 +53,7 @@ public interface Question {
 	/**
 	 * sets the maximum available time
 	 * 
-	 * @param maxTime
+	 * @param value
 	 *            the maximum time to set
 	 */
 	public void setValue(int value);
