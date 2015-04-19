@@ -16,9 +16,10 @@ public class User {
         this.money = money;
     }
 
-    public User(String username, String password) {
+    public User(String username, String password, int money) {
         this.name = username;
         this.password = password;
+        this.money = money;
     }
 
     public String getName() {
@@ -33,7 +34,7 @@ public class User {
         return password;
     }
 
-    public void setPassword(String email) {
+    public void setPassword(String password) {
         this.password = password;
     }
 }

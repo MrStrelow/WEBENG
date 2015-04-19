@@ -18,7 +18,6 @@ import java.util.List;
  * Created by Matze on 18.04.2015.
  */
 public class LoadCategoryServlet extends HttpServlet {;
-
     public void init() throws ServletException {
 
     }
@@ -27,12 +26,16 @@ public class LoadCategoryServlet extends HttpServlet {;
 
     }
 
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         JeopardyFactory factory = new ServletJeopardyFactory(getServletContext());
         QuestionDataProvider provider = factory.createQuestionDataProvider();
         int maxround = 10;
         int round = 1;
-        HttpSession session = request.getSession();
+        HttpSession session = request.getSession(false);
         //zum categorieaufbau - beinhaltet categorien, kekommt name mit getName. z.B. (TV, SSD, ...). aufbau von geldfelder weiß i nit. nit vorgegeben.
         session.setAttribute("categories", provider.getCategoryData());
         //anzahl der fragen.
@@ -44,11 +47,8 @@ public class LoadCategoryServlet extends HttpServlet {;
             round = (int) session.getAttribute("round") + 1;
         }
         session.setAttribute("round", round);
-        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/jeopardy.jsp");
-        dispatcher.forward(request, response);
-    }
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        response.sendRedirect("/jeopardy.jsp");
+        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/jeopardy.jsp");
+        //dispatcher.forward(request, response);
     }
 }
