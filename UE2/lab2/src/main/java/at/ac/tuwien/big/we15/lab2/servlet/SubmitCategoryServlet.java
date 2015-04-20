@@ -1,11 +1,8 @@
 package at.ac.tuwien.big.we15.lab2.servlet;
 
 import at.ac.tuwien.big.we15.lab2.api.Category;
-import at.ac.tuwien.big.we15.lab2.api.JeopardyFactory;
 import at.ac.tuwien.big.we15.lab2.api.Question;
-import at.ac.tuwien.big.we15.lab2.api.QuestionDataProvider;
-import at.ac.tuwien.big.we15.lab2.api.impl.ServletJeopardyFactory;
-import at.ac.tuwien.big.we15.lab2.api.impl.User;
+import at.ac.tuwien.big.we15.lab2.api.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -22,12 +19,12 @@ import java.util.List;
 public class SubmitCategoryServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
-        User user = (User)session.getAttribute("user");
+        User user = (User) session.getAttribute("user");
         //zum ausgrauen
         int questionNr = Integer.parseInt(request.getParameter("question_selection"));
         int money = Integer.parseInt(request.getParameter("money"));
         String selectedCategory = request.getParameter("category");
-        List<Category> categories = (List<Category>)session.getAttribute("categories");
+        List<Category> categories = (List<Category>) session.getAttribute("categories");
         Question question = possibleQuestion(getCategory(categories, selectedCategory).getQuestions(), money);
         user.setQuestionNr(questionNr);
         user.setQuestion(question);
@@ -42,21 +39,21 @@ public class SubmitCategoryServlet extends HttpServlet {
         doPost(request, response);
     }
 
-    private Question possibleQuestion(List<Question> questions, int money){
+    private Question possibleQuestion(List<Question> questions, int money) {
         List<Question> list = new ArrayList<>();
-        for(Question question : questions){
-            if(question.getValue() == money){
+        for (Question question : questions) {
+            if (question.getValue() == money) {
                 list.add(question);
             }
         }
-        Question ret = list.get((int)(Math.random()*list.size()));
+        Question ret = list.get((int) (Math.random() * list.size()));
         return ret;
     }
 
-    private Category getCategory(List<Category> categories, String categoryName){
+    private Category getCategory(List<Category> categories, String categoryName) {
         Category ret = null;
-        for(Category category : categories){
-            if(category.getName().equals(categoryName)){
+        for (Category category : categories) {
+            if (category.getName().equals(categoryName)) {
                 ret = category;
                 break;
             }
