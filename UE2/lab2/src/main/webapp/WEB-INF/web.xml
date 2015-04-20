@@ -15,9 +15,6 @@
     <servlet>
         <servlet-name>SubmitCategoryServlet</servlet-name>
         <servlet-class>at.ac.tuwien.big.we15.lab2.servlet.SubmitCategoryServlet</servlet-class>
-    </servlet><servlet>
-        <servlet-name>WinnerServlet</servlet-name>
-        <servlet-class>at.ac.tuwien.big.we15.lab2.servlet.WinnerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -34,8 +31,5 @@
     <servlet-mapping>
         <servlet-name>SubmitCategoryServlet</servlet-name>
         <url-pattern>/SubmitCategoryServlet</url-pattern>
-    </servlet-mapping><servlet-mapping>
-        <servlet-name>WinnerServlet</servlet-name>
-        <url-pattern>/WinnerServlet</url-pattern>
     </servlet-mapping>
 </web-app>

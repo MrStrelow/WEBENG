@@ -76,51 +76,51 @@
                <fieldset>
                <legend class="accessibility">Fragenauswahl</legend>
                <section class="questioncategory" aria-labelledby="tvheading">
-                  <h3 id="tvheading" class="tile category-title"><span class="accessibility">Kategorie: </span>Internet</h3>
+                  <h3 id="tvheading" class="tile category-title"><span class="accessibility">Kategorie: </span>TV</h3>
                   <ol class="category_questions">
-                     <li><input name="question_selection" id="question_1" value="1" type="radio" disabled="disabled" /><label class="tile clickable" for="question_1">€ 100</label><input type="hidden" name="money" value="10"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_2" value="2" type="radio"/><label class="tile clickable" for="question_2">€ 200</label><input type="hidden" name="money" value="20"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_3" value="3" type="radio"/><label class="tile clickable" for="question_3">€ 500</label><input type="hidden" name="money" value="30"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_4" value="4" type="radio"/><label class="tile clickable" for="question_4">€ 750</label><input type="hidden" name="money" value="40"/><input type="hidden" name="category" value="Internet"/></li>
+                     <li><input name="question_selection" id="question_1" value="1" type="radio" disabled="disabled" /><label class="tile clickable" for="question_1">€ 100</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="TV"/></li>
+                     <li><input name="question_selection" id="question_2" value="2" type="radio"/><label class="tile clickable" for="question_2">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="TV"/></li>
+                     <li><input name="question_selection" id="question_3" value="3" type="radio"/><label class="tile clickable" for="question_3">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="TV"/></li>
+                     <li><input name="question_selection" id="question_4" value="4" type="radio"/><label class="tile clickable" for="question_4">€ 750</label><input type="hidden" name="money" value="750"/><input type="hidden" name="category" value="TV"/></li>
                   </ol>
                </section>
                <section class="questioncategory" aria-labelledby="ssdheading">
                   <h3 id="ssdheading" class="tile category-title"><span class="accessibility">Kategorie: </span>SSD</h3>
                   <ol class="category_questions">
-                     <li><input name="question_selection" id="question_5" value="5" type="radio" /><label class="tile clickable" for="question_5">€ 100</label><input type="hidden" name="money" value="40"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_6" value="6" type="radio" /><label class="tile clickable" for="question_6">€ 200</label><input type="hidden" name="money" value="20"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_7" value="7" type="radio" /><label class="tile clickable" for="question_7">€ 500</label><input type="hidden" name="money" value="50"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_8" value="8" type="radio" /><label class="tile clickable" for="question_8">€ 750</label><input type="hidden" name="money" value="70"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_9" value="9" type="radio" /><label class="tile clickable" for="question_9">€ 1000</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="Internet"/></li>
+                     <li><input name="question_selection" id="question_5" value="5" type="radio" /><label class="tile clickable" for="question_5">€ 100</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="SSD"/></li>
+                     <li><input name="question_selection" id="question_6" value="6" type="radio" /><label class="tile clickable" for="question_6">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="SSD"/></li>
+                     <li><input name="question_selection" id="question_7" value="7" type="radio" /><label class="tile clickable" for="question_7">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="SSD"/></li>
+                     <li><input name="question_selection" id="question_8" value="8" type="radio" /><label class="tile clickable" for="question_8">€ 750</label><input type="hidden" name="money" value="750"/><input type="hidden" name="category" value="SSD"/></li>
+                     <li><input name="question_selection" id="question_9" value="9" type="radio" /><label class="tile clickable" for="question_9">€ 1000</label><input type="hidden" name="money" value="1000"/><input type="hidden" name="category" value="SSD"/></li>
                   </ol>
                </section>
                <section class="questioncategory" aria-labelledby="webheading">
                   <h3 id="webheading" class="tile category-title"><span class="accessibility">Kategorie: </span>Web</h3>
                   <ol class="category_questions">
-                     <li><input name="question_selection" id="question_10" value="10" type="radio" /><label class="tile clickable" for="question_10">€ 100</label><input type="hidden" name="money" value="10"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_11" value="11" type="radio" /><label class="tile clickable" for="question_11">€ 200</label><input type="hidden" name="money" value="20"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_12" value="12" type="radio" disabled="disabled" /><label class="tile clickable" for="question_12">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_13" value="13" type="radio" /><label class="tile clickable" for="question_13">€ 750</label><input type="hidden" name="money" value="70"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_14" value="14" type="radio" /><label class="tile clickable" for="question_14">€ 1000</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="Internet"/></li>
+                     <li><input name="question_selection" id="question_10" value="10" type="radio" /><label class="tile clickable" for="question_10">€ 100</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="WEB"/></li>
+                     <li><input name="question_selection" id="question_11" value="11" type="radio" /><label class="tile clickable" for="question_11">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="WEB"/></li>
+                     <li><input name="question_selection" id="question_12" value="12" type="radio" disabled="disabled" /><label class="tile clickable" for="question_12">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="WEB"/></li>
+                     <li><input name="question_selection" id="question_13" value="13" type="radio" /><label class="tile clickable" for="question_13">€ 750</label><input type="hidden" name="money" value="750"/><input type="hidden" name="category" value="WEB"/></li>
+                     <li><input name="question_selection" id="question_14" value="14" type="radio" /><label class="tile clickable" for="question_14">€ 1000</label><input type="hidden" name="money" value="1000"/><input type="hidden" name="category" value="WEB"/></li>
                   </ol>
                </section>
                <section class="questioncategory" aria-labelledby="sportheading">
                   <h3 id="sportheading" class="tile category-title"><span class="accessibility">Kategorie: </span>Sport</h3>
                   <ol class="category_questions">
-                     <li><input name="question_selection" id="question_15" value="15" type="radio" /><label class="tile clickable" for="question_15">€ 100</label><input type="hidden" name="money" value="10"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_16" value="16" type="radio" disabled="disabled" /><label class="tile clickable" for="question_16">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_17" value="17" type="radio" /><label class="tile clickable" for="question_17">€ 500</label><input type="hidden" name="money" value="50"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_18" value="18" type="radio" /><label class="tile clickable" for="question_18">€ 750</label><input type="hidden" name="money" value="75"/><input type="hidden" name="category" value="Internet"/></li>
+                     <li><input name="question_selection" id="question_15" value="15" type="radio" /><label class="tile clickable" for="question_15">€ 100</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="Sport"/></li>
+                     <li><input name="question_selection" id="question_16" value="16" type="radio" disabled="disabled" /><label class="tile clickable" for="question_16">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="Sport"/></li>
+                     <li><input name="question_selection" id="question_17" value="17" type="radio" /><label class="tile clickable" for="question_17">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="Sport"/></li>
+                     <li><input name="question_selection" id="question_18" value="18" type="radio" /><label class="tile clickable" for="question_18">€ 750</label><input type="hidden" name="money" value="750"/><input type="hidden" name="category" value="Sport"/></li>
                   </ol>
                </section>
                <section class="questioncategory" aria-labelledby="tuwienheading">
                   <h3 id="tuwienheading" class="tile category-title"><span class="accessibility">Kategorie: </span>TUWIEN</h3>
                   <ol class="category_questions">
-                     <li><input name="question_selection" id="question_19" value="19" type="radio" /><label class="tile clickable" for="question_19">€ 100</label><input type="hidden" name="money" value="10"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_20" value="20" type="radio" /><label class="tile clickable" for="question_20">€ 200</label><input type="hidden" name="money" value="20"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_21" value="21" type="radio" /><label class="tile clickable" for="question_21">€ 500</label><input type="hidden" name="money" value="50"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_22" value="22" type="radio" /><label class="tile clickable" for="question_22">€ 750</label><input type="hidden" name="money" value="70"/><input type="hidden" name="category" value="Internet"/></li>
-                     <li><input name="question_selection" id="question_23" value="23" type="radio" disabled="disabled" /><label class="tile clickable" for="question_23">€ 1000</label><input type="hidden" name="money" value="1000"/><input type="hidden" name="money" value="1000"/><input type="hidden" name="category" value="Internet"/></li>
+                     <li><input name="question_selection" id="question_19" value="19" type="radio" /><label class="tile clickable" for="question_19">€ 100</label><input type="hidden" name="money" value="100"/><input type="hidden" name="category" value="TUWIEN"/></li>
+                     <li><input name="question_selection" id="question_20" value="20" type="radio" /><label class="tile clickable" for="question_20">€ 200</label><input type="hidden" name="money" value="200"/><input type="hidden" name="category" value="TUWIEN"/></li>
+                     <li><input name="question_selection" id="question_21" value="21" type="radio" /><label class="tile clickable" for="question_21">€ 500</label><input type="hidden" name="money" value="500"/><input type="hidden" name="category" value="TUWIEN"/></li>
+                     <li><input name="question_selection" id="question_22" value="22" type="radio" /><label class="tile clickable" for="question_22">€ 750</label><input type="hidden" name="money" value="750"/><input type="hidden" name="category" value="TUWIEN"/></li>
+                     <li><input name="question_selection" id="question_23" value="23" type="radio" disabled="disabled" /><label class="tile clickable" for="question_23">€ 1000</label><input type="hidden" name="money" value="1000"/><input type="hidden" name="money" value="1000"/><input type="hidden" name="category" value="TUWIEN"/></li>
                   </ol>
                </section> 
                </fieldset>               

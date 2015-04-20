@@ -16,13 +16,12 @@ public class KI {
 
     public User start() {
         QuestionAnswerer qa = new QuestionAnswerer();
-        //if(qa.check(chooseAnswers(getQuestion(chooseCategory())))){
-            ki.setSaldo(ki.getSaldo() + 20);
-        /*}
+        if(qa.check(chooseAnswers(getQuestion(chooseCategory())))){
+            //ki.setMoney(ki.getMoney() + 500);
+        }
         else{
-            ki.setSaldo(ki.getSaldo() - 20);
-        }*/
-        ki.setRound(ki.getRound()+1);
+            //ki.setMoney(ki.getMoney() - 500);
+        }
         return ki;
     }
 
