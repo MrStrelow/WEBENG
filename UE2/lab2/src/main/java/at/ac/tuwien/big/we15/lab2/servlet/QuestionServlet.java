@@ -1,11 +1,11 @@
 package at.ac.tuwien.big.we15.lab2.servlet;
 
-import at.ac.tuwien.big.we15.lab2.api.Answer;
-import at.ac.tuwien.big.we15.lab2.api.impl.KI;
-import at.ac.tuwien.big.we15.lab2.api.impl.QuestionAnswerer;
-import at.ac.tuwien.big.we15.lab2.api.impl.User;
+import at.ac.tuwien.big.we15.lab2.api.KI;
+import at.ac.tuwien.big.we15.lab2.api.QuestionAnswerer;
+import at.ac.tuwien.big.we15.lab2.api.User;
+import at.ac.tuwien.big.we15.lab2.api.impl.SimpleKI;
+import at.ac.tuwien.big.we15.lab2.api.impl.SimpleQuestionAnswerer;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -34,17 +34,16 @@ public class QuestionServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
         String[] answers = request.getParameterValues("answers");
-        QuestionAnswerer answerer = new QuestionAnswerer();
-        User user = (User)session.getAttribute("user");
+        QuestionAnswerer answerer = new SimpleQuestionAnswerer();
+        User user = (User) session.getAttribute("user");
 
-        if(answerer.check(answers)){//ausbessern
+        if (answerer.check(answers)) {//ausbessern
             user.setSaldo(user.getSaldo() + ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
-        }
-        else{
-            user.setSaldo(user.getSaldo() - ((List<Integer>)session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size()-1));
+        } else {
+            user.setSaldo(user.getSaldo() - ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
         }
         //ki spielt
-        KI ki = new KI();
+        KI ki = new SimpleKI();
         User kiUser = ki.start();
         session.setAttribute("kiUser", kiUser);
         //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");

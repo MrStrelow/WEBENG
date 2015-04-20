@@ -1,6 +1,7 @@
 package at.ac.tuwien.big.we15.lab2.servlet;
 
-import at.ac.tuwien.big.we15.lab2.api.impl.User;
+import at.ac.tuwien.big.we15.lab2.api.User;
+import at.ac.tuwien.big.we15.lab2.api.impl.SimpleUser;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -24,7 +25,7 @@ public class LoginServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        User user = new User(request.getParameter("username"), request.getParameter("password"), 0);
+        User user = new SimpleUser(request.getParameter("username"), request.getParameter("password"), 0);
         session.setAttribute("user", user);
         //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
         //dispatcher.forward(request, response);
