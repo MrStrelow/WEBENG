@@ -28,7 +28,7 @@ public class QuestionServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request, response);
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -37,17 +37,25 @@ public class QuestionServlet extends HttpServlet {
         QuestionAnswerer answerer = new SimpleQuestionAnswerer();
         User user = (User) session.getAttribute("user");
 
+<<<<<<< HEAD
         if (answerer.check(answers)) {//ausbessern
             user.setSaldo(user.getSaldo() + ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
         } else {
             user.setSaldo(user.getSaldo() - ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
+=======
+        if(answerer.check(answers)){//ausbessern
+            user.setSaldo(user.getSaldo() + user.getQuestion().getValue());
+        }
+        else{
+            user.setSaldo(user.getSaldo() - user.getQuestion().getValue());
+>>>>>>> parent of edc21ef... Revert "Servlets "fertig"."
         }
         //ki spielt
         KI ki = new SimpleKI();
         User kiUser = ki.start();
         session.setAttribute("kiUser", kiUser);
-        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
-        //dispatcher.forward(request, response);
-        response.sendRedirect("/LoadCategoryServlet");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
+        dispatcher.forward(request, response);
+        //response.sendRedirect("/LoadCategoryServlet");
     }
 }

@@ -4,6 +4,7 @@ import at.ac.tuwien.big.we15.lab2.api.Category;
 import at.ac.tuwien.big.we15.lab2.api.Question;
 import at.ac.tuwien.big.we15.lab2.api.User;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -22,7 +23,8 @@ public class SubmitCategoryServlet extends HttpServlet {
         User user = (User) session.getAttribute("user");
         //zum ausgrauen
         int questionNr = Integer.parseInt(request.getParameter("question_selection"));
-        int money = Integer.parseInt(request.getParameter("money"));
+        String[] moneyGes = request.getParameterValues("money");
+        int money = Integer.parseInt(moneyGes[questionNr]);
         String selectedCategory = request.getParameter("category");
         List<Category> categories = (List<Category>) session.getAttribute("categories");
         Question question = possibleQuestion(getCategory(categories, selectedCategory).getQuestions(), money);
@@ -30,9 +32,9 @@ public class SubmitCategoryServlet extends HttpServlet {
         user.setQuestion(question);
         //frage->user in session schreiben
         session.setAttribute("user", user);
-        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/question.jsp");
-        //dispatcher.forward(request, response);
-        response.sendRedirect("/question.jsp");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/question.jsp");
+        dispatcher.forward(request, response);
+        //response.sendRedirect("/question.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -46,7 +48,11 @@ public class SubmitCategoryServlet extends HttpServlet {
                 list.add(question);
             }
         }
+<<<<<<< HEAD
         Question ret = list.get((int) (Math.random() * list.size()));
+=======
+        Question ret = list.get((int)(Math.random()*(list.size())));
+>>>>>>> parent of edc21ef... Revert "Servlets "fertig"."
         return ret;
     }
 
