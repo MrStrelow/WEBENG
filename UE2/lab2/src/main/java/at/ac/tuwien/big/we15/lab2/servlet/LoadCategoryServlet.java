@@ -26,7 +26,7 @@ public class LoadCategoryServlet extends HttpServlet {;
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doGet(request,response);
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -46,8 +46,8 @@ public class LoadCategoryServlet extends HttpServlet {;
         user.setRound(round + 1);
         session.setAttribute("user", user);
 
-        response.sendRedirect("/jeopardy.jsp");
-        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/jeopardy.jsp");
-        //dispatcher.forward(request, response);
+        //response.sendRedirect("/jeopardy.jsp");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/jeopardy.jsp");
+        dispatcher.forward(request, response);
     }
 }

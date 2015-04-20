@@ -10,12 +10,18 @@ public class User {
     private String password;
     private int saldo;
     private int round;
-
     private int questionNr;
 
     public User() {
-        this.round = 1;
+        this.round = 0;
         this.saldo = 0;
+    }
+
+    public User(String username, String password, int saldo) {
+        this.round = 0;
+        this.name = username;
+        this.password = password;
+        this.saldo = saldo;
     }
 
     public void setQuestionNr(int questionNr) {
@@ -52,12 +58,6 @@ public class User {
     }
 
     private Question question;
-
-    public User(String username, String password, int saldo) {
-        this.name = username;
-        this.password = password;
-        this.saldo = saldo;
-    }
 
     public String getName() {
         return name;

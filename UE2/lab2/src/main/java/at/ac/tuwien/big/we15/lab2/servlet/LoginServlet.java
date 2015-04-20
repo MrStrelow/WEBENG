@@ -2,6 +2,7 @@ package at.ac.tuwien.big.we15.lab2.servlet;
 
 import at.ac.tuwien.big.we15.lab2.api.impl.User;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -26,12 +27,12 @@ public class LoginServlet extends HttpServlet {
         HttpSession session = request.getSession();
         User user = new User(request.getParameter("username"), request.getParameter("password"), 0);
         session.setAttribute("user", user);
-        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
-        //dispatcher.forward(request, response);
-        response.sendRedirect("/LoadCategoryServlet");
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
+        dispatcher.forward(request, response);
+        //response.sendRedirect("/LoadCategoryServlet");
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        doPost(request, response);
     }
 }
