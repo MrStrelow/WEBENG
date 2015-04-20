@@ -6,7 +6,6 @@ import at.ac.tuwien.big.we15.lab2.api.Question;
 import at.ac.tuwien.big.we15.lab2.api.QuestionDataProvider;
 import at.ac.tuwien.big.we15.lab2.api.impl.ServletJeopardyFactory;
 import at.ac.tuwien.big.we15.lab2.api.impl.User;
-import org.junit.experimental.categories.Categories;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
