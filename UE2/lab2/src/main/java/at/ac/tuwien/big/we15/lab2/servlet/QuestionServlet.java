@@ -34,15 +34,14 @@ public class QuestionServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
         String[] answers = request.getParameterValues("answers");
-        session.getAttribute("question");
         QuestionAnswerer answerer = new QuestionAnswerer();
         User user = (User)session.getAttribute("user");
 
-        if(answerer.check(answers)){
-            user.setMoney(user.getMoney() + ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
+        if(answerer.check(answers)){//ausbessern
+            user.setSaldo(user.getSaldo() + ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
         }
         else{
-            user.setMoney(user.getMoney() - ((List<Integer>)session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size()-1));
+            user.setSaldo(user.getSaldo() - ((List<Integer>)session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size()-1));
         }
         //ki spielt
         KI ki = new KI();

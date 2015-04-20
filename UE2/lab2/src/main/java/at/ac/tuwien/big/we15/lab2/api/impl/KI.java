@@ -17,10 +17,10 @@ public class KI {
     public User start() {
         QuestionAnswerer qa = new QuestionAnswerer();
         if(qa.check(chooseAnswers(getQuestion(chooseCategory())))){
-            ki.setMoney(ki.getMoney() + 500);
+            //ki.setMoney(ki.getMoney() + 500);
         }
         else{
-            ki.setMoney(ki.getMoney() - 500);
+            //ki.setMoney(ki.getMoney() - 500);
         }
         return ki;
     }

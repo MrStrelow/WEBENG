@@ -2,14 +2,12 @@ package at.ac.tuwien.big.we15.lab2.servlet;
 
 import at.ac.tuwien.big.we15.lab2.api.impl.User;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 /**
  * Created by Matze on 18.04.2015.

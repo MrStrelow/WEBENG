@@ -5,6 +5,8 @@ import at.ac.tuwien.big.we15.lab2.api.JeopardyFactory;
 import at.ac.tuwien.big.we15.lab2.api.Question;
 import at.ac.tuwien.big.we15.lab2.api.QuestionDataProvider;
 import at.ac.tuwien.big.we15.lab2.api.impl.ServletJeopardyFactory;
+import at.ac.tuwien.big.we15.lab2.api.impl.User;
+import org.junit.experimental.categories.Categories;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -21,36 +23,45 @@ import java.util.List;
 public class SubmitCategoryServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
+        User user = (User)session.getAttribute("user");
         //zum ausgrauen
-        List<Integer> numbers = new ArrayList<>();
-        if(session.getAttribute("selectedQuestionNumbers") != null){
-            numbers = (List<Integer>)session.getAttribute("selectedQuestionNumbers");
-        }
-        numbers.add(Integer.parseInt(request.getParameter("question_selection")));
-        session.setAttribute("selectedQuestionNumbers", numbers);
-        //fia wert da frage
-        List<Integer> moneyHistory = new ArrayList<>();
-        if(session.getAttribute("selectedQuestionMoneyHistory") != null){
-            moneyHistory = (List<Integer>)session.getAttribute("selectedQuestionMoneyHistory");
-        }
-        moneyHistory.add(Integer.parseInt(request.getParameter("money")));
-        session.setAttribute("selectedQuestionMoneyHistory", moneyHistory);
-        //frage in session schreiben
+        int questionNr = Integer.parseInt(request.getParameter("question_selection"));
+        int money = Integer.parseInt(request.getParameter("money"));
+        String selectedCategory = request.getParameter("category");
         List<Category> categories = (List<Category>)session.getAttribute("categories");
-        for(Category category : categories){
-            if(category.getName().equals(request.getParameter("category"))){
-                List<Question> questions = category.getQuestions();
-                int i = (int)(Math.random()*questions.size());
-                session.setAttribute("question", questions.get(i));
-                break;
-            }
-        }
+        Question question = possibleQuestion(getCategory(categories, selectedCategory).getQuestions(), money);
+        user.setQuestionNr(questionNr);
+        user.setQuestion(question);
+        //frage->user in session schreiben
+        session.setAttribute("user", user);
         //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/question.jsp");
         //dispatcher.forward(request, response);
         response.sendRedirect("/question.jsp");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        doPost(request, response);
+    }
 
+    private Question possibleQuestion(List<Question> questions, int money){
+        List<Question> list = new ArrayList<>();
+        for(Question question : questions){
+            if(question.getValue() == money){
+                list.add(question);
+            }
+        }
+        Question ret = list.get((int)(Math.random()*list.size()));
+        return ret;
+    }
+
+    private Category getCategory(List<Category> categories, String categoryName){
+        Category ret = null;
+        for(Category category : categories){
+            if(category.getName().equals(categoryName)){
+                ret = category;
+                break;
+            }
+        }
+        return ret;
     }
 }
