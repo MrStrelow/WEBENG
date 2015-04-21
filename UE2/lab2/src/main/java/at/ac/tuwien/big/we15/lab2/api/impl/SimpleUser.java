@@ -13,9 +13,8 @@ public class SimpleUser implements at.ac.tuwien.big.we15.lab2.api.User {
     private int questionNr;
     private Question question;
 
-<<<<<<< HEAD:UE2/lab2/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java
     public SimpleUser() {
-        this.round = 1;
+        this.round = 0;
         this.saldo = 0;
     }
 
@@ -23,28 +22,12 @@ public class SimpleUser implements at.ac.tuwien.big.we15.lab2.api.User {
         this.name = username;
         this.password = password;
         this.saldo = saldo;
-=======
-    public User() {
         this.round = 0;
-        this.saldo = 0;
-    }
-
-    public User(String username, String password, int saldo) {
-        this.round = 0;
-        this.name = username;
-        this.password = password;
-        this.saldo = saldo;
-    }
-
-    public void setQuestionNr(int questionNr) {
-        this.questionNr = questionNr;
->>>>>>> parent of edc21ef... Revert "Servlets "fertig".":UE2/lab2/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/User.java
     }
 
     @Override
     public int getQuestionNr() {
         return questionNr;
-
     }
 
     @Override
@@ -82,12 +65,6 @@ public class SimpleUser implements at.ac.tuwien.big.we15.lab2.api.User {
         this.question = question;
     }
 
-<<<<<<< HEAD:UE2/lab2/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java
-    @Override
-=======
-    private Question question;
-
->>>>>>> parent of edc21ef... Revert "Servlets "fertig".":UE2/lab2/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/User.java
     public String getName() {
         return name;
     }

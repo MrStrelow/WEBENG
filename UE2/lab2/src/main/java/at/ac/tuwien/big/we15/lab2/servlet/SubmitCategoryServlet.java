@@ -48,11 +48,8 @@ public class SubmitCategoryServlet extends HttpServlet {
                 list.add(question);
             }
         }
-<<<<<<< HEAD
-        Question ret = list.get((int) (Math.random() * list.size()));
-=======
-        Question ret = list.get((int)(Math.random()*(list.size())));
->>>>>>> parent of edc21ef... Revert "Servlets "fertig"."
+
+        Question ret = list.get((int)(Math.random()*list.size()));
         return ret;
     }
 

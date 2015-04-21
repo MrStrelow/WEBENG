@@ -6,6 +6,7 @@ import at.ac.tuwien.big.we15.lab2.api.User;
 import at.ac.tuwien.big.we15.lab2.api.impl.SimpleKI;
 import at.ac.tuwien.big.we15.lab2.api.impl.SimpleQuestionAnswerer;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -37,18 +38,11 @@ public class QuestionServlet extends HttpServlet {
         QuestionAnswerer answerer = new SimpleQuestionAnswerer();
         User user = (User) session.getAttribute("user");
 
-<<<<<<< HEAD
-        if (answerer.check(answers)) {//ausbessern
-            user.setSaldo(user.getSaldo() + ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
-        } else {
-            user.setSaldo(user.getSaldo() - ((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).get(((List<Integer>) session.getAttribute("selectedQuestionMoneyHistory")).size() - 1));
-=======
-        if(answerer.check(answers)){//ausbessern
+        if(answerer.check(answers)){
             user.setSaldo(user.getSaldo() + user.getQuestion().getValue());
         }
-        else{
+        else {
             user.setSaldo(user.getSaldo() - user.getQuestion().getValue());
->>>>>>> parent of edc21ef... Revert "Servlets "fertig"."
         }
         //ki spielt
         KI ki = new SimpleKI();

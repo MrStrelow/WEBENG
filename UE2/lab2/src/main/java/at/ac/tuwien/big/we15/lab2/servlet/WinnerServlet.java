@@ -1,6 +1,6 @@
 package at.ac.tuwien.big.we15.lab2.servlet;
 
-import at.ac.tuwien.big.we15.lab2.api.impl.User;
+import at.ac.tuwien.big.we15.lab2.api.User;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

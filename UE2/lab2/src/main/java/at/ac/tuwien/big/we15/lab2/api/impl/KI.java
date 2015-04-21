@@ -1,8 +1,6 @@
 package at.ac.tuwien.big.we15.lab2.api.impl;
 
-import at.ac.tuwien.big.we15.lab2.api.Answer;
-import at.ac.tuwien.big.we15.lab2.api.Category;
-import at.ac.tuwien.big.we15.lab2.api.Question;
+import at.ac.tuwien.big.we15.lab2.api.*;
 
 import java.util.List;
 
@@ -12,10 +10,10 @@ import java.util.List;
 public class KI {
     //ki als user darstellen
 
-    User ki = new User("ki","",0);
+    User ki = new SimpleUser("ki","",0);
 
     public User start() {
-        QuestionAnswerer qa = new QuestionAnswerer();
+        QuestionAnswerer qa = new SimpleQuestionAnswerer();
         //if(qa.check(chooseAnswers(getQuestion(chooseCategory())))){
             ki.setSaldo(ki.getSaldo() + 20);
         /*}
