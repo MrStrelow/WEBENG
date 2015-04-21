@@ -489,14 +489,7 @@
 
     <!--CharsetFilter start-->
 
-    <filter>
-        <filter-name>CharsetFilter</filter-name>
-        <filter-class>at.ac.tuwien.big.we15.lab2.servlet.CharsetFilter</filter-class>
-        <init-param>
-            <param-name>requestEncoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
-    </filter>
+
 
     <!-- ==================== Built In Filter Mappings ====================== -->
 
@@ -524,10 +517,7 @@
         </filter-mapping>
     -->
 
-    <filter-mapping>
-        <filter-name>CharsetFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+
 
     <!-- ==================== Default Session Configuration ================= -->
     <!-- You can set the default session timeout (in minutes) for all newly   -->

@@ -221,7 +221,8 @@ public class Clock2 extends Applet implements Runnable {
 
     @Override
     public String[][] getParameterInfo() {
-        String[][] info = {{"bgcolor", "hexadecimal RGB number", "The background color. Default is the color of your browser."}, {"fgcolor1", "hexadecimal RGB number", "The color of the hands and dial. Default is blue."}, {"fgcolor2", "hexadecimal RGB number", "The color of the seconds hand and numbers. Default is dark gray."}};
+        String[][] info = {{"bgcolor", "hexadecimal RGB number", "The background color. Default is the color of your browser."}, {"fgcolor1", "hexadecimal RGB number", "The color of the hands and dial. " +
+                "Default is blue."}, {"fgcolor2", "hexadecimal RGB number", "The color of the seconds hand and numbers. Default is dark gray."}};
         return info;
     }
 }

@@ -33,7 +33,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     String version = (String) request.getAttribute("version");
     ContextName cn = new ContextName(path, version);
     String submitUrl = JspHelper.escapeXml(response.encodeURL(((HttpServletRequest) pageContext.getRequest()).getRequestURI() +
-                    "?path=" + path + "&version=" + version));
+            "?path=" + path + "&version=" + version));
     Collection activeSessions = (Collection) request.getAttribute("activeSessions");
 %>
 <head>

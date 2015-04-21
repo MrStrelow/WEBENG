@@ -26,7 +26,7 @@ public class LoginServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        User user = new SimpleUser(request.getParameter("username"), request.getParameter("password"), 0);
+        User user = new SimpleUser(request.getParameter("username"), request.getParameter("password"));
         session.setAttribute("user", user);
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
         dispatcher.forward(request, response);

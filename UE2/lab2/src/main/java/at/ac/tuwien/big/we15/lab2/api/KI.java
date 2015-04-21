@@ -8,6 +8,8 @@ import java.util.List;
 public interface KI {
     User start();
 
+    User getKiUser();
+
     Question getQuestion(Category category);
 
     Category chooseCategory();

@@ -29,8 +29,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * The three annotated echo endpoints can be used to test with Autobahn and the following command "wstest -m fuzzingclient -s servers.json". See the Autobahn documentation for setup and general
- * information.
- * Note: This one is disabled by default since it allocates memory, and needs to be enabled back.
+ * information. Note: This one is disabled by default since it allocates memory, and needs to be enabled back.
  */
 //@javax.websocket.server.ServerEndpoint("/websocket/echoAsyncAnnotation")
 public class EchoAsyncAnnotation {

@@ -28,7 +28,7 @@ public class LoadCategoryServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doGet(request,response);
+        doGet(request, response);
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

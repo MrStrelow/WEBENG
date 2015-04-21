@@ -21,8 +21,7 @@ import javax.servlet.jsp.JspTagException;
 import java.io.IOException;
 
 /**
- * Example1: the simplest tag Collect attributes and call into some actions
- * <foo att1="..." att2="...." att3="...." />
+ * Example1: the simplest tag Collect attributes and call into some actions <foo att1="..." att2="...." att3="...." />
  */
 
 public class FooTag extends ExampleTagBase {

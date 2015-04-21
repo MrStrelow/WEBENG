@@ -16,7 +16,7 @@ import java.io.IOException;
 public class WinnerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
-        User user = (User)session.getAttribute("user");
+        User user = (User) session.getAttribute("user");
         user.setRound(0);
         user.setSaldo(0);
         //wenn true, dann ausgegraute felder wieder neu init. -> im jsp nach aufruf false setzen.
@@ -26,6 +26,6 @@ public class WinnerServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        doPost(request, response);
     }
 }

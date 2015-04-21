@@ -21,10 +21,9 @@ import java.util.StringTokenizer;
 
 /**
  * Processes a cookie header and attempts to obfuscate any cookie values that represent session IDs from other web applications. Since session cookie names are configurable, as are session ID lengths, this
- * filter is not expected to be 100% effective.
- * It is required that the examples web application is removed in security conscious environments as documented in the Security How-To. This filter is intended to reduce the impact of failing to follow
- * that advice. A failure by this filter to obfuscate a session ID or similar value is not a security vulnerability. In such instances the vulnerability is the failure to remove the examples web
- * application.
+ * filter is not expected to be 100% effective. It is required that the examples web application is removed in security conscious environments as documented in the Security How-To. This filter is intended
+ * to reduce the impact of failing to follow that advice. A failure by this filter to obfuscate a session ID or similar value is not a security vulnerability. In such instances the vulnerability is the
+ * failure to remove the examples web application.
  */
 public class CookieFilter {
 

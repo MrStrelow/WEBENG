@@ -18,61 +18,62 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
     <title>Apache Tomcat WebSocket Examples: Drawboard</title>
-    <style type="text/css"><
-    !
-    [CDATA[
+    <style type="text/css">
+        <
+        !
+        [CDATA[
 
         body {
-        font-family: Arial, sans-serif;
-        font-size: 11pt;
-        background-color: #eeeeea;
-        padding: 10px;
-    }
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            background-color: #eeeeea;
+            padding: 10px;
+        }
 
-    #console-container {
-        float: left;
-        background-color: #fff;
-        width: 250px;
-    }
+        #console-container {
+            float: left;
+            background-color: #fff;
+            width: 250px;
+        }
 
-    #console {
-        font-size: 10pt;
-        height: 600px;
-        overflow-y: scroll;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
+        #console {
+            font-size: 10pt;
+            height: 600px;
+            overflow-y: scroll;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
 
-    #console p {
-        padding: 0;
-        margin: 0;
-    }
+        #console p {
+            padding: 0;
+            margin: 0;
+        }
 
-    #drawContainer {
-        float: left;
-        display: none;
-        margin-right: 25px;
-    }
+        #drawContainer {
+            float: left;
+            display: none;
+            margin-right: 25px;
+        }
 
-    #drawContainer canvas {
-        display: block;
-        -ms-touch-action: none;
-        touch-action: none; /* Disable touch behaviors, like pan and zoom */
-        cursor: crosshair;
-    }
+        #drawContainer canvas {
+            display: block;
+            -ms-touch-action: none;
+            touch-action: none; /* Disable touch behaviors, like pan and zoom */
+            cursor: crosshair;
+        }
 
-    #labelContainer {
-        margin-bottom: 15px;
-    }
+        #labelContainer {
+            margin-bottom: 15px;
+        }
 
-    #drawContainer, #console-container {
-        box-shadow: 0px 0px 8px 3px #bbb;
-        border: 1px solid #CCCCCC;
-    }
+        #drawContainer, #console-container {
+            box-shadow: 0px 0px 8px 3px #bbb;
+            border: 1px solid #CCCCCC;
+        }
 
-    ]
-    ]
-    ></style>
+        ]
+        ]
+        ></style>
     <script type="application/javascript"><![CDATA[
     "use strict";
 

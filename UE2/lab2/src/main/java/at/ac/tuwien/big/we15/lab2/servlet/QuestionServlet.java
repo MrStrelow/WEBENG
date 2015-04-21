@@ -13,7 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * Created by Matze on 18.04.2015.
@@ -38,16 +37,19 @@ public class QuestionServlet extends HttpServlet {
         QuestionAnswerer answerer = new SimpleQuestionAnswerer();
         User user = (User) session.getAttribute("user");
 
-        if(answerer.check(answers)){
+        if (answerer.check(answers)) {
             user.setSaldo(user.getSaldo() + user.getQuestion().getValue());
-        }
-        else {
+        } else {
             user.setSaldo(user.getSaldo() - user.getQuestion().getValue());
         }
         //ki spielt
         KI ki = new SimpleKI();
+        if (session.getAttribute("ki") != null) {
+            ki = (KI) session.getAttribute("ki");
+        }
         User kiUser = ki.start();
-        session.setAttribute("kiUser", kiUser);
+        session.setAttribute("ki", ki);
+        System.out.println(kiUser.getQuestion() + "_" + kiUser.getQuestionNr() + "_" + kiUser.getRound() + "_" + kiUser.getSaldo());
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
         dispatcher.forward(request, response);
         //response.sendRedirect("/LoadCategoryServlet");

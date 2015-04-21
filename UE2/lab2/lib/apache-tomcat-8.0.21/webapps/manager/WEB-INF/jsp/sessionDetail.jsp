@@ -41,7 +41,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
         currentSessionId = "Session invalidated";
     }
     String submitUrl = JspHelper.escapeXml(response.encodeURL(((HttpServletRequest) pageContext.getRequest()).getRequestURI() +
-                    "?path=" + path + "&version=" + version));
+            "?path=" + path + "&version=" + version));
 %>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1"/>

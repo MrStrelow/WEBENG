@@ -104,8 +104,8 @@ public class Client {
     }
 
     /**
-     * Sends the given message asynchronously to the client. If there is already a async sending in progress, then the message will be buffered and sent when possible.<br><br>
-     * This method can be called from multiple threads.
+     * Sends the given message asynchronously to the client. If there is already a async sending in progress, then the message will be buffered and sent when possible.<br><br> This method can be called
+     * from multiple threads.
      *
      * @param msg
      */

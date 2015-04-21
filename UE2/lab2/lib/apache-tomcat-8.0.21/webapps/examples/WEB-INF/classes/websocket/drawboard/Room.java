@@ -32,8 +32,8 @@ import java.util.TimerTask;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * A Room represents a drawboard where a number of users participate.<br><br>
- * Note: Instance methods should only be invoked by calling {@link #invokeAndWait(Runnable)} to ensure access is correctly synchronized.
+ * A Room represents a drawboard where a number of users participate.<br><br> Note: Instance methods should only be invoked by calling {@link #invokeAndWait(Runnable)} to ensure access is correctly
+ * synchronized.
  */
 public final class Room {
 
@@ -315,8 +315,7 @@ public final class Room {
 
     /**
      * Specifies the type of a room message that is sent to a client.<br> Note: Currently we are sending simple string messages - for production apps, a JSON lib should be used for object-level
-     * messages.<br><br>
-     * The number (single char) will be prefixed to the string when sending the message.
+     * messages.<br><br> The number (single char) will be prefixed to the string when sending the message.
      */
     public static enum MessageType {
         /**
@@ -347,8 +346,7 @@ public final class Room {
     }
 
     /**
-     * A Player participates in a Room. It is the interface between the {@link Room} and the {@link Client}.<br><br>
-     * Note: This means a player object is actually a join between Room and Client.
+     * A Player participates in a Room. It is the interface between the {@link Room} and the {@link Client}.<br><br> Note: This means a player object is actually a join between Room and Client.
      */
     public final class Player {
 

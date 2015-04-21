@@ -34,11 +34,11 @@ public final class DrawboardEndpoint extends Endpoint {
      */
     private static volatile Room room = null;
     /**
-     * The player that is associated with this Endpoint and the current room. Note that this variable is only accessed from the Room Thread.<br><br>
-     * TODO: Currently, Tomcat uses an Endpoint instance once - however the java doc of endpoint says: "Each instance of a websocket endpoint is guaranteed not to be called by more than one thread at a
-     * time per active connection." This could mean that after calling onClose(), the instance could be reused for another connection so onOpen() will get called (possibly from another thread).<br> If this
-     * is the case, we would need a variable holder for the variables that are accessed by the Room thread, and read the reference to the holder at the beginning of onOpen, onMessage, onClose methods to
-     * ensure the room thread always gets the correct instance of the variable holder.
+     * The player that is associated with this Endpoint and the current room. Note that this variable is only accessed from the Room Thread.<br><br> TODO: Currently, Tomcat uses an Endpoint instance once -
+     * however the java doc of endpoint says: "Each instance of a websocket endpoint is guaranteed not to be called by more than one thread at a time per active connection." This could mean that after
+     * calling onClose(), the instance could be reused for another connection so onOpen() will get called (possibly from another thread).<br> If this is the case, we would need a variable holder for the
+     * variables that are accessed by the Room thread, and read the reference to the holder at the beginning of onOpen, onMessage, onClose methods to ensure the room thread always gets the correct instance
+     * of the variable holder.
      */
     private Room.Player player;
     private final MessageHandler.Whole<String> stringHandler = new MessageHandler.Whole<String>() {

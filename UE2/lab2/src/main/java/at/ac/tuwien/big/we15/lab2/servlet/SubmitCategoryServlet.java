@@ -49,7 +49,7 @@ public class SubmitCategoryServlet extends HttpServlet {
             }
         }
 
-        Question ret = list.get((int)(Math.random()*list.size()));
+        Question ret = list.get((int) (Math.random() * list.size()));
         return ret;
     }
 

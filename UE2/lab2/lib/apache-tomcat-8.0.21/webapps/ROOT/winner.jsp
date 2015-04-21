@@ -1,4 +1,5 @@
-<%@page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8" %>
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
@@ -68,7 +69,7 @@
     <section id="newgame" aria-labelledby="newgameheading">
         <h2 id="newgameheading" class="accessibility">Neues Spiel</h2>
 
-        <form action="jeopardy.jsp" method="post">
+        <form action="WinnerServlet" method="post">
             <input class="clickable orangelink contentlink" id="new_game" type="submit" name="restart" value="Neues Spiel"/>
         </form>
     </section>
