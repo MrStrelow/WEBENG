@@ -19,6 +19,7 @@
     <h1 id="bannerheading">
         <span class="accessibility">Business Informatics Group </span><span class="gametitle">Jeopardy!</span>
     </h1>
+
 </header>
 
 <!-- Navigation -->
@@ -67,6 +68,7 @@
          <!-- Question -->
          <section id="question-selection" aria-labelledby="questionheading">
             <h2 id="questionheading" class="black accessibility">Jeopardy</h2>
+             <% int variable = 0; out.println("Der Wert der Variable ist: " + variable); %>
             <p class="user-info positive-change">Du hast richtig geantwortet: +1000 €</p>
             <p class="user-info negative-change">Deadpool hat falsch geantwortet: -500 €</p>
             <p class="user-info">Deadpool hat TUWIEN für € 1000 gewählt.</p>
