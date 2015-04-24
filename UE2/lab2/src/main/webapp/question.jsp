@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" %>
+<jsp:useBean id="user" scope="session" class="at.ac.tuwien.big.we15.lab2.api.impl.SimpleUser"/>
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
@@ -40,11 +42,11 @@
             <table>
                 <tr>
                     <th class="accessibility">Spielername</th>
-                    <td class="playername">Black Widow (Du)</td>
+                    <td class="playername"><%=user.getName()%></td>
                 </tr>
                 <tr>
                     <th class="accessibility">Spielerpunkte</th>
-                    <td class="playerpoints">2000 €</td>
+                    <td class="playerpoints"><%=user.getSaldo()%> €</td>
                 </tr>
             </table>
         </section>
@@ -70,9 +72,9 @@
         <form id="questionform" action="QuestionServlet" method="get">
             <h2 id="questionheading" class="accessibility">Frage</h2>
 
-            <p id="questiontype">TUWIEN für € 300</p>
+            <p id="questiontype"><%=user.getName()%> für € <%=user.getQuestion().getValue()%></p>
 
-            <p id="questiontext">Diese Lehrveranstaltungen bilden das Modul EWA.</p>
+            <p id="questiontext"><%=user.getQuestion().getText()%></p>
             <ul id="answers">
                 <li><input name="answers" id="answer_1" value="Was ist IT Strategie?" type="checkbox"/><label class="tile clickable" for="answer_1">Was ist IT Strategie?</label></li>
                 <li><input name="answers" id="answer_2" value="Was ist Web Engineering?" type="checkbox"/><label class="tile clickable" for="answer_2">Was ist Web Engineering?</label></li>

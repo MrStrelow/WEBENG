@@ -1,9 +1,11 @@
 package at.ac.tuwien.big.we15.lab2.servlet;
 
 import at.ac.tuwien.big.we15.lab2.api.JeopardyFactory;
+import at.ac.tuwien.big.we15.lab2.api.KI;
 import at.ac.tuwien.big.we15.lab2.api.QuestionDataProvider;
 import at.ac.tuwien.big.we15.lab2.api.User;
 import at.ac.tuwien.big.we15.lab2.api.impl.ServletJeopardyFactory;
+import at.ac.tuwien.big.we15.lab2.api.impl.SimpleKI;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -35,6 +37,8 @@ public class LoadCategoryServlet extends HttpServlet {
         JeopardyFactory factory = new ServletJeopardyFactory(getServletContext());
         QuestionDataProvider provider = factory.createQuestionDataProvider();
         HttpSession session = request.getSession(false);
+        KI ki = new SimpleKI();
+        session.setAttribute("ki", ki);
         int maxround = 10;
         User user = (User) session.getAttribute("user");
         int round = user.getRound();

@@ -43,13 +43,9 @@ public class QuestionServlet extends HttpServlet {
             user.setSaldo(user.getSaldo() - user.getQuestion().getValue());
         }
         //ki spielt
-        KI ki = new SimpleKI();
-        if (session.getAttribute("ki") != null) {
-            ki = (KI) session.getAttribute("ki");
-        }
-        User kiUser = ki.start();
+        KI ki = (KI)session.getAttribute("ki");
+        ki.start();
         session.setAttribute("ki", ki);
-        System.out.println(kiUser.getQuestion() + "_" + kiUser.getQuestionNr() + "_" + kiUser.getRound() + "_" + kiUser.getSaldo());
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");
         dispatcher.forward(request, response);
         //response.sendRedirect("/LoadCategoryServlet");
