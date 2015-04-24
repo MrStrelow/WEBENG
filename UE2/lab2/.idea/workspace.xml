@@ -2,408 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92539213-e2cf-4144-994c-30e6709c86f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAvatar.java" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\Answer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\Avatar.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\Category.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\JeopardyFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\KI.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\Question.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\QuestionAnswerer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\QuestionDataProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\User.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\KI.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\ServletJeopardyFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleAnswer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleCategory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleJeopardyFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleKI.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestion.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestionAnswerer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\SimpleUser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\CharsetFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\LoadCategoryServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\LoginServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\QuestionServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\SubmitCategoryServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\WinnerServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\WEB-INF\data.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\aldrich-killian.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\aldrich-killian_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\beetle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\beetle_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\black-widow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\black-widow_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\captain-america.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\captain-america_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\cyclops.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\cyclops_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\deadpool.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\deadpool_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\doctor-doom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\doctor-doom_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\doctor-octopus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\doctor-octopus_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\drax.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\drax_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\electro.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\electro_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\extremis-soldier.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\extremis-soldier_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\falcon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\falcon_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\gamora.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\gamora_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\green-goblin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\green-goblin_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\groot.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\groot_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hawkeye.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hawkeye_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hulk.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hulk_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hydra-henchman.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\hydra-henchman_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\iron-fist.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\iron-fist_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\iron-man.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\iron-man_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\j-jonah-jameson.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\j-jonah-jameson_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\loki.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\loki_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\magneto.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\magneto_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\mary-jane-watson.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\mary-jane-watson_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\modok.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\modok_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nebula.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nebula_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nick-fury.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nick-fury_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nova.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\nova_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\pepper-potts.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\pepper-potts_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\power-man.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\power-man_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\read-skull_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\red-skull.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\red-skull_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\rocket.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\rocket_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\ronan.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\ronan_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\spiderman.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\spiderman_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\starlord.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\starlord_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\taskmaster.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\taskmaster_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\the-mandarin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\the-mandarin_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\thor.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\thor_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\tony-stark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\tony-stark_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\venom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\venom_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\war-machine.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\war-machine_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\wolverine.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\avatar\wolverine_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\big-logo-big.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\img\big-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\jeopardy.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\js\framework.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\login.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\question.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\register.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\style\base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\style\screen.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\src\main\webapp\winner.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\Answer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\Avatar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\Category.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\JeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\Question.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\QuestionAnswerer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\QuestionDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\User.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$CategoryDeserializer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$CategoryDeserializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\ServletJeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleAnswer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleCategory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleJeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleKI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestion.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestionAnswerer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleUser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\LoadCategoryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\QuestionServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\SubmitCategoryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\classes\at\ac\tuwien\big\we15\lab2\servlet\WinnerServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\test-classes\data.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\Answer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\Avatar.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\Category.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\JeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\Question.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\QuestionAnswerer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\QuestionDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\User.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$CategoryDeserializer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$CategoryDeserializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider$QuestionDeserialzier.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\JSONQuestionDataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\ServletJeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleAnswer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleCategory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleJeopardyFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleKI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestion.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleQuestionAnswerer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\SimpleUser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\LoadCategoryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\LoginServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\QuestionServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\SubmitCategoryServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\WinnerServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\data.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\gson-2.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\guava-18.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\hamcrest-core-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\hamcrest-library-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\javax.el-api-3.0.1-b04.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\lib\javax.servlet-api-3.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\aldrich-killian.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\aldrich-killian_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\beetle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\beetle_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\black-widow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\black-widow_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\captain-america.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\captain-america_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\cyclops.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\cyclops_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\deadpool.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\deadpool_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\doctor-doom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\doctor-doom_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\doctor-octopus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\doctor-octopus_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\drax.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\drax_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\electro.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\electro_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\extremis-soldier.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\extremis-soldier_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\falcon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\falcon_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\gamora.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\gamora_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\green-goblin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\green-goblin_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\groot.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\groot_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hawkeye.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hawkeye_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hulk.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hulk_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hydra-henchman.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\hydra-henchman_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\iron-fist.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\iron-fist_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\iron-man.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\iron-man_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\j-jonah-jameson.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\j-jonah-jameson_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\loki.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\loki_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\magneto.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\magneto_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\mary-jane-watson.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\mary-jane-watson_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\modok.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\modok_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nebula.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nebula_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nick-fury.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nick-fury_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nova.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\nova_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\pepper-potts.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\pepper-potts_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\power-man.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\power-man_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\read-skull_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\red-skull.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\red-skull_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\rocket.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\rocket_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\ronan.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\ronan_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\spiderman.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\spiderman_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\starlord.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\starlord_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\taskmaster.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\taskmaster_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\the-mandarin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\the-mandarin_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\thor.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\thor_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\tony-stark.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\tony-stark_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\venom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\venom_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\war-machine.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\war-machine_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\wolverine.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\avatar\wolverine_head.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\big-logo-big.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\img\big-logo-small.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\jeopardy.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\js\framework.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\login.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\question.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\register.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\style\base.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\style\screen.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\target\we15-lab2-0.0.1-SNAPSHOT\winner.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2 (geht)\lab2\we15-lab2.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\UE2-Angabe.pdf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\lib\apache-tomcat-8.0.21\webapps\ROOT\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\lib\apache-tomcat-8.0.21\webapps\ROOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\servlet\CharsetFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\servlet\CharsetFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\target\classes\at\ac\tuwien\big\we15\lab2\api\impl\User.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\KI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\target\we15-lab2-0.0.1-SNAPSHOT\WEB-INF\classes\at\ac\tuwien\big\we15\lab2\api\impl\User.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\mvc.png" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\KI.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ComplexKI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/Avatar.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/Avatar.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$1.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$2.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$CategoryDeserializer$1.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$CategoryDeserializer$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$CategoryDeserializer.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$CategoryDeserializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier$1.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier$2.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider$QuestionDeserialzier.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/KI.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/KI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" afterPath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" afterPath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleCategory.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.class" afterPath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/User.class" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/api/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.class" afterPath="$PROJECT_DIR$/target/classes/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.class" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/WEB-INF/classes/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Answer.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Answer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Avatar.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Avatar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Category.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Category.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/jsp/applet/Clock2.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/jsp/applet/Clock2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/jsp/plugin/applet/Clock2.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/jsp/plugin/applet/Clock2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/util/CookieFilter.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/util/CookieFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/examples/FooTag.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/examples/FooTag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/JeopardyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/JeopardyFactory.java" />
+      <change type="DELETED" beforePath="C:\Users\rafalwlo\Dropbox\SS2015\VU Web Engineering\WEBENG\UE2\lab2\src\main\java\at\ac\tuwien\big\we15\lab2\api\impl\ComplexKI.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Question.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/QuestionDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/QuestionDataProvider.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleCategory.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleCategory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/SubmitCategoryServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.java" afterPath="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/WinnerServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/style/base.css" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/style/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/chat.xhtml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/chat.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/data.json" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/drawboard.xhtml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/drawboard.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/echo.xhtml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/echo.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/js/framework.js" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/js/framework.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/jeopardy.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/jeopardy.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jeopardy.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jeopardy.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/jeopardy.jsp" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/jeopardy.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/js/jquery.js" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/js/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/question.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/question.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/register.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/register.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/style/screen.css" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/style/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/manager/WEB-INF/jsp/sessionsList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/snake.xhtml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/websocket/snake.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/we15-lab2.iml" afterPath="$PROJECT_DIR$/we15-lab2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/conf/web.xml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/conf/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/winner.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/ROOT/winner.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/winner.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/winner.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/winner.jsp" afterPath="$PROJECT_DIR$/target/we15-lab2-0.0.1-SNAPSHOT/winner.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/we15_lab2_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/we15_lab2_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/jsp/xml/xml.jsp" afterPath="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/webapps/examples/jsp/xml/xml.jsp" />
     </list>
     <ignored path="we15-lab2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -425,7 +35,66 @@
     <favorites_list name="we15-lab2" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="QuestionServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6399108">
+              <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleKI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+              <folding>
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONQuestionDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoadCategoryServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleQuestionAnswerer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+              <folding>
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -445,16 +114,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI2.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ComplexKI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Avatar.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAvatar.java" />
         <option value="$PROJECT_DIR$/lib/apache-tomcat-8.0.21/conf/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java" />
       </list>
     </option>
   </component>
@@ -513,6 +185,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -550,6 +224,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="we15-lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -649,9 +349,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1019,6 +717,18 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
@@ -1103,12 +813,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="we15-lab2:war" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.lab2" />
@@ -1130,41 +835,46 @@
       <option name="number" value="Default" />
       <updated>1429618518752</updated>
       <workItem from="1429618520651" duration="4385000" />
+      <workItem from="1429866641834" duration="107000" />
+      <workItem from="1429866792485" duration="71000" />
+      <workItem from="1429866891894" duration="2223000" />
+      <workItem from="1429890757406" duration="239000" />
+      <workItem from="1429891022376" duration="7026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4385000" />
+    <option name="totallyTimeSpent" value="14051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1188,11 +898,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3794643">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,7 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,7 +975,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,57 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1328125">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1328125">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15178572">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77790177">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094866075">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,42 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15178572">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051339287">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094866075">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094866075">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ComplexKI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51227677">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1333,9 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9542411">
           <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11710677">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,7 +1017,164 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5236486">
           <caret line="475" column="7" selection-start-line="475" selection-start-column="7" selection-end-line="475" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5117057">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/KI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09476031">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/QuestionAnswerer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13266444">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleAnswer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36008918">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
+          <folding>
+            <element signature="e#2572#2573#0" expanded="true" />
+            <element signature="e#2607#2608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9665552">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/LoadCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="71" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/JeopardyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13266444">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleJeopardyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09476031">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/ServletJeopardyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.303233">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/QuestionDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1516165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/JSONQuestionDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleKI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/api/impl/SimpleQuestionAnswerer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/tuwien/big/we15/lab2/servlet/QuestionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6399108">
+          <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

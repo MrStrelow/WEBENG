@@ -3,7 +3,6 @@ package at.ac.tuwien.big.we15.lab2.servlet;
 import at.ac.tuwien.big.we15.lab2.api.KI;
 import at.ac.tuwien.big.we15.lab2.api.QuestionAnswerer;
 import at.ac.tuwien.big.we15.lab2.api.User;
-import at.ac.tuwien.big.we15.lab2.api.impl.SimpleKI;
 import at.ac.tuwien.big.we15.lab2.api.impl.SimpleQuestionAnswerer;
 
 import javax.servlet.RequestDispatcher;
@@ -34,8 +33,8 @@ public class QuestionServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);
         String[] answers = request.getParameterValues("answers");
-        QuestionAnswerer answerer = new SimpleQuestionAnswerer();
         User user = (User) session.getAttribute("user");
+        QuestionAnswerer answerer = new SimpleQuestionAnswerer(user.getQuestion());
 
         if (answerer.check(answers)) {
             user.setSaldo(user.getSaldo() + user.getQuestion().getValue());
@@ -43,7 +42,7 @@ public class QuestionServlet extends HttpServlet {
             user.setSaldo(user.getSaldo() - user.getQuestion().getValue());
         }
         //ki spielt
-        KI ki = (KI)session.getAttribute("ki");
+        KI ki = (KI) session.getAttribute("ki");
         ki.start();
         session.setAttribute("ki", ki);
         RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/LoadCategoryServlet");

@@ -97,8 +97,13 @@ public class SimpleQuestion implements Question {
     }
 
     @Override
-    public List<Answer> getCorrectAnswers() {
+    public List<Answer> getRightAnswers() {
         return rightAnswers;
+    }
+
+    @Override
+    public List<Answer> getWrongAnswers() {
+        return wrongAnswers;
     }
 
     @Override

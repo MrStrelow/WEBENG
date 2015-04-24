@@ -18,8 +18,11 @@ public class SimpleAnswer implements Answer {
         question = null;
     }
 
+    public SimpleAnswer(String text) {
+        this.text = text;
+    }
+
     public SimpleAnswer(String text, Question question) {
-        super();
         this.text = text;
         this.question = question;
     }

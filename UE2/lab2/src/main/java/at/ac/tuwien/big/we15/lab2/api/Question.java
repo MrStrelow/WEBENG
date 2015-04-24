@@ -53,7 +53,9 @@ public interface Question {
     /**
      * @return a list of all correct choices
      */
-    public List<Answer> getCorrectAnswers();
+    public List<Answer> getRightAnswers();
+
+    List<Answer> getWrongAnswers();
 
     /**
      * Adds a new choice to this question

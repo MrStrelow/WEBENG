@@ -66,6 +66,7 @@ public class SimpleUser implements User {
         this.question = question;
     }
 
+    @Override
     public String getName() {
         return name;
     }
